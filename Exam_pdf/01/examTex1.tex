@@ -1,0 +1,24 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, total={6.5in, 8in}]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xargs}
+\pagestyle{fancy}
+\begin{document}
+\chead{Exam document 1.}
+As a first exercise, type your own name here, with all the special symbols used in your
+language\footnote{In my case it is Mikus Dániel, that is, is contains an á letter}
+:
+Mikus Dániel \par
+ In this document I loaded the corresponding packages for special characters. In this text I used various font shapes like \textbf{bold}, \textit{italic} and small capital characters, {\tiny and} the font size is ~{\huge set to various values.} \par
+The compilation should be done till a pdf file is achieved. \par
+Text can be emphasized in various \underline{ways} in {\LaTeX}. \par
+I can even define new commands. For example, if I frequently use partial derivatives, I can create a command \verb!\pdiff{}{}! that takes two arguments and creates the partial derivative
+\newcommand{\pdiff}[2]{\frac{\partial #1}{\partial #2}}
+$\pdiff{f (x,y)}{x}$ or
+\[ \pdiff{func(var1,var2)}{var1} \] \par
+It is possible to cross-reference equations correctly; for example, “equation (1) is defined as
+\begin{equation}
+\sigma (\nu ) = const \cdot \frac{c}{\nu _0} \left( \frac{M}{2 \pi h T} \right) exp \left\lbrace - \frac{M c^2}{2k_b T} \frac{(\nu - \nu _0)^2}{\nu _0^2} \right\rbrace ,
+\end{equation} 
+where {\textit{T}} is..."
+\end{document}
