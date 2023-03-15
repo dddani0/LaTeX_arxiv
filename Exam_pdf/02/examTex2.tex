@@ -1,0 +1,19 @@
+\documentclass[12pt]{article}
+\usepackage{esvect} % nyilakra
+\usepackage{amsmath} %matek enviromenten normális szöveg
+\begin{document}
+\pagestyle{empty} %oldal számlálás eltüntetve
+\par As a first exercise, type your own name here, with all the special symbols used in your language \footnote{In my case it is Mikus Dániel, that is, is contains á}: Mikus Dániel\par
+There are various possibilities for typesetting mathematical content. Whilein the text, characters $ \sum $ and $\int$ are smaller ("squeezed"). These two inline math modes were created in two different ways. \par
+Using displayed equations we get a much nicer result: 
+$$\int_{a^2}^{\sqrt{b}} \ln \left( \overbrace{\overline{x} \times \overline{y}}^{\text{Cross product}}   \right)  \,dx ,$$ \par
+Yet another type of displayed (but still not numbered) equation:
+\[
+\vv{x} \cdot \vv{y} = \sum_{i} x_i y_i = |x| \cdot |y| \cdot \cos \angle _{xy}
+\] \par
+If we want to give a number to the equation, we need to use another envi-ronment:
+\begin{equation}
+\sigma (\nu) = const \cdot \frac{\frac{dv}{2 \pi}}{(\nu - \nu _0)^2 + \left( \frac{\triangle \nu}{2} \right)^2}
+\end{equation} \par
+(Note that no page number is present in this page.)
+\end{document}
