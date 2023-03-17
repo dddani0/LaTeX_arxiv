@@ -1,0 +1,26 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=1cm,bottom=2cm, footskip=1cm]{geometry}
+\usepackage{multicol}
+\usepackage{blindtext}
+\title{Exam document for "Introduction to the \LaTeX ~document preparation system" course}
+\author{Mikus Dániel}
+\setcounter{secnumdepth}{4}
+\begin{document}
+\maketitle
+\begin{multicols}{2}
+\addcontentsline{toc}{section}{Unnumbered Section}
+\section{Introduction}
+As a first exercise, type your own name here,with all the special symbols used in your lan-guage \footnote{In my case it is Mikus Dániel, that contains an á}: Mikus Dániel
+\subsection{Settings}
+This time we work on a4 papers with a font size12 points; text is arranged into two columns.The default space above the title would be toobig so reduce it with a suitable command of the appropriate package!
+\subsubsection{Sectioning}
+Among other problems, this exercise sheet addresses headings. As the table of contents processes these headings, it belongs to the topic.The default number of levels in the table ofcontents is 3, that is, even “sub-subheadings” should be visible, but this time I adjustedthe corresponding counter to stop at the sub-heading level.  Nevertheless, the headings inthe document are numbered till paragraphlevel. Here we go:
+\paragraph{Numbering}
+See? Even paragraphs are numbered.
+\subparagraph{Yet another header}
+Subparagraphs, however, are not numbered.
+\subsection{Equation}
+As all other exam papers, this contains an equation too:
+\tableofcontents
+\end{multicols}
+\end{document}
