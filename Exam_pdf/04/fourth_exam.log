@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  19 MAR 2023 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  19 MAR 2023 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -94,59 +94,78 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/pagenote\pagenote.sty
+Package: pagenote 2009/09/03 v1.1a page/end notes
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/ifmtarg\ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)
+\c@pagenote=\count272
+\c@pnotesavechap=\count273
+)
+\@notefile=\write3
+\openout3 = `fourth_exam.ent'.
+
+
+Writing note file fourth_exam.ent
+
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count272
+\l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box53
 ) (fourth_exam.aux)
 \openout1 = `fourth_exam.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 17
+.
+Package marginnote Info: right page because not two side mode on input line 17.
 
-Package marginnote Info: right page because not two side mode on input line 8.
-Package marginnote Info: xpos seems to be 340.68027pt on input line 8.
+Package marginnote Info: xpos seems to be 340.68027pt on input line 17.
 
 No file fourth_exam.bbl.
-[1
+(fourth_exam.ent)
+\openout3 = `fourth_exam.ent'.
 
-{C:/Users/Danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(fourth_exam.aux) ) 
+ [1
+
+{C:/Users/Danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (fourth_exam
+.aux) ) 
 Here is how much of TeX's memory you used:
- 1252 strings out of 475385
- 19929 string characters out of 2776906
- 367532 words of memory out of 3000000
- 22680 multiletter control sequences out of 15000+600000
+ 1359 strings out of 475385
+ 22215 string characters out of 2776906
+ 368264 words of memory out of 3000000
+ 22776 multiletter control sequences out of 15000+600000
  474076 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,8n,62p,314b,153s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmex10.pfb><D:/Users/Danie/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Users/Danie/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Users/Danie/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Users/Danie/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users
-/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D
-:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmti12.pfb>
-Output written on fourth_exam.pdf (1 page, 110328 bytes).
+ 54i,8n,62p,386b,153s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Users/Danie/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Users/Danie/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/Danie/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Users/Dani
+e/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Use
+rs/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmti12.pfb>
+Output written on fourth_exam.pdf (1 page, 111071 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
