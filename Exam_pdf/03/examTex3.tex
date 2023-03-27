@@ -2,6 +2,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Packages (preamble)
 \usepackage[a4paper, top=1cm, bottom=5cm, footskip=3cm, left=2cm, right=2cm]{geometry}
+\usepackage{setspace}
 \usepackage{multicol} %multicolumn page system
 \usepackage{amsmath} %For maths
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -12,6 +13,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \maketitle
+\renewcommand{\footnoterule}{%
+  \kern -3pt
+  \hrule width 1.3in height 1pt
+  \kern 2pt
+}
 \begin{multicols}{2}
 \section{Introduction}
 As a first exercise, type your own name here, with all the special symbols used in your language \footnote{In my case it is Mikus Dániel, that contains an á} : Mikus Dániel
@@ -22,7 +28,7 @@ Among other problems, this exercise sheet addresses headings. As the table of co
 \paragraph{Numbering}
 See? Even paragraphs are numbered. 
 \subparagraph{Yet another header}
-Subparagraphs, however, are not numbered. 
+Subparagraphs, however, are not numbered.
 \columnbreak
 \subsection{Equation}
 As all other exam papers, this contains an equation too:
