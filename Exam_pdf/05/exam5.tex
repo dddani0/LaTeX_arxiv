@@ -8,21 +8,16 @@
     \centering
     \renewcommand{\caption}[1]{#1}
    \caption{Coefficients of friction} \\
-    \begin{tabular}{|c|l|c|c|l|}
-    \hline
-    \hline
-        \multicolumn{2}{|c|}{Static friction} & 3 & \multicolumn{2}{|c|}{Sliding friction}  \\
-        \hline 
-        \hline
+    \begin{tabular}{||c|l|c|c|l||}
+     \hhline{|t:=====:t|}
+        \multicolumn{2}{|c|}{Static friction} & 3 & \multicolumn{2}{|c|}{Sliding friction} \\
+        \hhline{|:-----:|}
         dry and clean  & lubricated &  & dry and clean & lubricated  \\
-        \hline
-        \hline
+        \hhline{|:=====:|}
         0.15 & 0.111 & steel on steel & 0.14 & 0.001  \\
-        \hline
-        \hline
+        \hhline{||}
         0.19  & 0.1 & steel on iron & 0.18 & 0.001 \\
-        \hline
-        \hline
+        \hhline{|b:=====:b|}
     \end{tabular}
     \label{tab:my_label}
 \end{table}
