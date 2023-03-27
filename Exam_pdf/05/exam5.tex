@@ -1,0 +1,29 @@
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{hhline}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{table}[]
+    \caption{A complex example for handling tables}
+    \centering
+    \renewcommand{\caption}[1]{#1}
+   \caption{Coefficients of friction} \\
+    \begin{tabular}{||c|l|c|c|l||}
+     \hhline{|t:=====:t|}
+        \multicolumn{2}{||c|}{Static friction} & 3 & \multicolumn{2}{|c||}{Sliding friction} \\
+        \hhline{|#--#-#--#|}
+        dry and clean  & lubricated &  & dry and clean & lubricated  \\
+        \hhline{|:=====:|}
+        0.15 & 0.111 & steel on steel & 0.14 & 0.001  \\
+        \hhline{||}
+        0.19  & 0.1 & steel on iron & 0.18 & 0.001 \\
+        \hhline{|b:=====:b|}
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}
+\par
+As it is usual, type your own name here, with all the special symbols used in your language: Mikus Dániel. \par
+Table 1. shows loads of examples on how to deal with tables. \par
+If any tables are present, it is possible to create a “collection of the table captions”:
+\listoftables
+\end{document}
