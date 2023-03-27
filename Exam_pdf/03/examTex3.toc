@@ -1,0 +1,6 @@
+\contentsline {section}{\par \@tempskipa -3.5ex plus-1ex minus-.2ex\relax \let \penalty \@secpenalty \relax \begingroup \skip@ \@tempskipa \relax \vskip \skip@ \endgroup \let \reserved@d =*\def \par }{1}{}%
+\contentsline {subsection}{\numberline {0.1}Settings}{1}{}%
+\contentsline {subsubsection}{\numberline {0.1.1}Sectioning}{1}{}%
+\contentsline {paragraph}{\numberline {0.1.1.1}Numbering}{1}{}%
+\contentsline {subparagraph}{Yet another header}{1}{}%
+\contentsline {subsection}{\numberline {0.2}Equation}{1}{}%
