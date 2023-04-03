@@ -3,17 +3,25 @@
 % Packages (preamble)
 \usepackage{amsmath} %For maths
 \usepackage{graphicx}
+\usepackage{xcolor}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-\par
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\columnwidth]{Fresnel-lens-eps.pdf}
+    \caption{\color{red}Schematic figure of a Fresnel lens}
+    \label{fig:my_label}
+\end{figure}
 As a first exercise, type your own name here, with all the special symbols used in your language: Mikus Dániel \par
 Let's start with an equation:
 \begin{equation}
     \Bar{\psi _n} (P) = \frac{1}{2i} \sqrt{\frac{a}{\pi \hbar}} e^{i(\frac{n \pi}{2} - \frac{pa}{2 \hbar})} \bigg[ F \bigg(p - \frac{n \pi \hbar}{a}\bigg) + (-1)^{n+1} F \bigg(p + \frac{n \pi \hbar}{a}\bigg) \bigg]
 \end{equation}
 \par
-This document focuses on figures. Actual drawing of figures (pictures) in \LaTeX is a bit complicated to be a task on this exam but we always need to insert external figures into our documents.\par
-In 
+This document focuses on figures. Actual drawing of figures (pictures) in \LaTeX ~is a bit complicated to be a task on this exam but we always need to insert external figures into our documents.\par
+In Fig. 1 the schematic figure of a Fresnel lens is shown. The figure itself is stored in the file \verb|Fresnel-lens.eps.| It is adjusted symmetrically to the center of the page, its width is set to half the width of the page, and the colour of the caption is changed to red. \par
+If there are any figures in the document it is possible to create a collection of the figure captions:
+\listoffigures
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
