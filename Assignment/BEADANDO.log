@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  14 APR 2023 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  14 APR 2023 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -158,7 +158,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 \renewcommand{\absnamepos}
+l.18 \renewcommand{\absnamepos}
                                {empty} % originally center
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -169,24 +169,24 @@ tex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count293
 \l__pdf_internal_box=\box96
-)
-No file BEADANDO.aux.
+) (BEADANDO.aux)
 \openout1 = `BEADANDO.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -222,11 +222,11 @@ LaTeX Font Info:    ... okay on input line 20.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 21.
 
 ! LaTeX Error: Unicode character ^^B (U+0002)
                not set up for use with LaTeX.
@@ -235,34 +235,484 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 ...el fits with great fidelity the current^^B
-                                                  voltage characteristic dat...
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 100.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 100.
+! You can't use `\eqno' in math mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{eqnarray} on input line 100 ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I'm guessing that you meant to end an alignment here.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $$ inserted.
+<to be read again> 
+                   \endgroup 
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+Displays can use special alignments (like \eqalignno)
+only if nothing but the alignment itself is between $$'s.
+
+[1
+
+{C:/Users/Danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! You can't use `\eqno' in math mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{eqnarray} on input line 100 ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I'm guessing that you meant to end an alignment here.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $$ inserted.
+<to be read again> 
+                   \endgroup 
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+Displays can use special alignments (like \eqalignno)
+only if nothing but the alignment itself is between $$'s.
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...BarXiv:2302.09407v1 [cond-mat.mtrl-sci] 1
+                                                  8 Feb 2023
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (25.48917pt too wide) in paragraph at lines 100--100
+\OT1/cmr/m/n/10 Here, h1 is used to model the be-hav-ior in the lowre-sis-tance
+ state of the de-vice, and h2 cap-tures its be-havarXiv:2302.09407v1
+ []
+
+
+! LaTeX Error: Unicode character ^^B (U+0002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...sistance state. The two electron trans^^B
+                                                  mission equations are weig...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[1
-
-{C:/Users/Danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-(BEADANDO.aux) ) 
+[2] (BEADANDO.aux) ) 
 Here is how much of TeX's memory you used:
- 1498 strings out of 475385
- 26189 string characters out of 2776906
- 385573 words of memory out of 3000000
- 22918 multiletter control sequences out of 15000+600000
- 473506 words of font info for 42 fonts, out of 8000000 for 9000
+ 1505 strings out of 475385
+ 26313 string characters out of 2776906
+ 388285 words of memory out of 3000000
+ 22922 multiletter control sequences out of 15000+600000
+ 474160 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,231b,253s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/Danie/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Users/Danie/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Users/Danie/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on BEADANDO.pdf (2 pages, 91323 bytes).
+ 55i,6n,62p,246b,253s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><D:/Users/Danie/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Users/Danie/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/Danie/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Users/Danie/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Users/D
+anie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/
+Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on BEADANDO.pdf (2 pages, 130569 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
