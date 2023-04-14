@@ -3,46 +3,12 @@
 % Packages (preamble)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{glossaries}
-\usepackage{amsmath}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\makeglossaries
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\makeboxlabel}[1]{\fbox{!!!}\hfill}% \hfill fills the label box
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newglossaryentry{dictionary}
-{
-        name=Dictionaries:
-}
-\newglossaryentry{lawofmaxwell}
-{
-        name=\text{4}^{\text{th}} \text{law of Maxwell:}
-}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-As a first exercise, type your own name here, with all the special symbols used in your language: Mikus Dániel \par
-Let us focus on the usage of lists.
+1. Feladat. \textit{Bontsuk elemi törtek összegére a következő racionális függvényeket, úgy, hogy közben Király Balázs tárgyfelelős kollégával gyomorszájon baszigálunk 15 mp intervallumonként!}
 \begin{enumerate}
-    \item This is a numbered list
-    \begin{enumerate}
-        \item Different levels are distinguished by different numbering in ~\LaTeX
-        \item[(f)] Now I changed the corresponding counter of ~\LaTeX to 5 so the sign of this item is f which is the 6th character in the alphabet.
-    \end{enumerate}
+\item[a)] $$f(x)=\frac{x^4-14x^3+29x^2-26x+9}{(x^2-x+1)^2 \cdot (3x-2)}$$
 \end{enumerate}
-\begin{itemize}
-    \item The same can't be told about ...
-    \begin{itemize}
-        \item ...unnumbered lists.
-    \end{itemize}
-    \begin{makeboxlabel}
-        \item But, as you see, the label of an item can be changed freely.
-    \end{makeboxlabel}
-\end{itemize} \par
-\textbf{\gls{dictionary}} In dictionaries we use a third type of list in which a word or a phrase plays the role of the label of an item. \\ \\
-\textbf{\gls{lawofmaxwell}} \\ \\
-\centering
-\begin{equation}
-    \oint \B \cdot ds 
-\end{equation}
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
