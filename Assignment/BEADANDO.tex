@@ -1,12 +1,35 @@
-\documentclass{IEEEtran}
-%\usepackage[top=5cm, bottom=5cm, outer=5cm, inner=5cm, heightrounded, %marginparwidth=5cm, marginparsep=5cm]{geometry}
+\documentclass{article}
+\usepackage[top=0cm, bottom=5cm, outer=2cm, inner=2cm, marginparwidth=5cm, marginparsep=5cm]{geometry}
 \usepackage{multicol}
+\usepackage{authblk}
 \usepackage{blindtext}
 \title{Fractional Marcus-Hush-Chidsey-Yakopcic current-voltage model for redox-based
 resistive memory devices}
-\author{df}
+
+\author[1]{Georgii Paradezhenko}
+\author[1]{Dmitrii Prodan}
+\author[1]{Anastasiia Pervishko}
+\author[1]{Dmitry Yudin}
+\author[2]{Anis Allagui}
+\affil[1]{Skolkovo Institute of Science and Technology, Moscow 121205, Russia}
+\affil[2]{Department of Sustainable and Renewable Energy Engineering, University of Sharjah, Sharjah, P.O. Box 27272, United Arab Emirates}
+\affil[3]{Department of Mechanical and Materials Engineering,
+Florida International University, Miami, FL33174, United States}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
 \begin{document}
+
 \maketitle
+
+\begin{abstract}
+    We propose a circuit-level model combining the Marcus-Hush-Chidsey electron current equation
+and the Yakopcic equation for the state variable for describing resistive switching memory devices of
+the structure metal–ionic conductor–metal. We extend the dynamics of the state variable originally
+described by a first-order time derivative by introducing a fractional derivative with an arbitrary
+order between zero and one. We show that the extended model fits with great fidelity the currentvoltage characteristic data obtained on a Si electrochemical metallization memory device with Ag-Cu
+alloy
+\end{abstract}
+
 \begin{multicols}{2}
 [
 \section{Introduction}
