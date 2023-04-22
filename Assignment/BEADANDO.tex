@@ -1,11 +1,15 @@
 \documentclass{article}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                   ┌┐  ┌┐
+%                   ││  ││
+%┌──┐┌─┐┌──┐┌──┐┌┐┌┐│└─┐││ ┌──┐
+%│┌┐││┌┘││─┤│┌┐││└┘││┌┐│││ ││─┤
+%│└┘│││ ││─┤│┌┐││││││└┘││└┐││─┤
+%│┌─┘└┘ └──┘└┘└┘└┴┴┘└──┘└─┘└──┘
+%││
+%└┘
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%               PREAMBLE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[top=0cm, bottom=2cm, outer=2cm, inner=2cm, marginparwidth=5cm, marginparsep=5cm]{geometry}
+\usepackage{amsmath}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{multicol} % multiple column package
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -15,27 +19,38 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{indentfirst}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{lmodern}
+\usepackage{etoolbox}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{fancyhdr} 
 \pagestyle{fancy}
 \fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % sets both header and footer to nothing
 \fancyhead[R]{\thepage}
+\usepackage{authblk} % több author címke
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+% Roman numerals for numbering
+\renewcommand{\thesection}{\Roman{section}} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%┌──┐ ┌───┐┌───┐┌┐  ┌┐
+%│┌┐│ │┌─┐│└┐┌┐││└┐┌┘│
+%│└┘└┐││ ││ ││││└┐└┘┌┘
+%│┌─┐│││ ││ ││││ └┐┌┘
+%│└─┘││└─┘│┌┘└┘│  ││
+%└───┘└───┘└───┘  └┘
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%               Title section
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
 \title{
+\patchcmd{\@maketitle}{\large \lineskip}{\Large \lineskip}{\typeout{OK 2}}{\typeout{Failed 2}}
 \textbf
 {Fractional Marcus-Hush-Chidsey-Yakopcic current-voltage model for redox-based resistive memory devices}
 }
-
+\makeatother
 \author[1]{Georgii Paradezhenko}
 \author[1]{Dmitrii Prodan}
 \author[1]{Anastasiia Pervishko}
 \author[1]{Dmitry Yudin}
-\author[2]{Anis Allagui}
+\author[2, 3]{Anis Allagui}
 \affil[1]{\textit{Skolkovo Institute of Science and Technology, Moscow 121205, Russia}}
 \affil[2]{\textit{Department of Sustainable and Renewable Energy Engineering, University of Sharjah, Sharjah, P.O. Box 27272, United Arab Emirates}}
 \affil[3]{\textit{Department of Mechanical and Materials Engineering,
@@ -49,7 +64,16 @@ Florida International University, Miami, FL33174, United States}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Showcase title on the page
 \maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skip first-page numbering
+\thispagestyle{empty}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Change the abstract size
 {\renewenvironment{quotation}%
@@ -69,9 +93,66 @@ We propose a circuit-level model combining the Marcus-Hush-Chidsey electron curr
 \setlength{\columnsep}{0.8cm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{multicols}{2}
-{\centering
-\section{Introduction}}
-\blindtext \columnbreak
-\blindtext
+{\centering %Only center the section title
+\section{Introduction}
+}
+Substantial research efforts have been dedicated to the
+development of electrically-controlled resistive switching in metal-insulator-metal (MIM) devices or memristors, going from new materials discovery
+to modelling and simulation, and design and applications.
+With both memory and logic capabilities combined at
+the hardware level, in addition to long retention times
+and high switching rates at relatively low energy
+consumption, these devices are favorably seen as the
+next-generation building blocks for nonvolatile memories and neuromorphic computing applications. In
+a typical memristor, the resistive switching is based on
+the electrically-stimulated change of cell resistance usually driven by internal ion redistribution, which actually depends not only on the applied excitation but also
+on the past history of the excitation
+. Physical mechanisms associated with these reversible transitions have
+been attributed to different effects including valencechange 16, electrochemical metallization17, and phase
+change effects18. They can be either abrupt (binary)
+or gradual (analogue), and evolve at different timescales,
+leading to rich and complex device behaviors in this seemingly simple device structure of just three layers. Furthermore, with the wide range of diversity in memristors
+materials and their morphologies, operating mechanisms,
+and manufacturing technologies there is an urgent need
+for the development of a general model capable of capturing accurately and effectively their complex nonlinear
+dynamics. This is crucial not only for the characterization and comparison between different memristor devices,
+but also for the investigation of larger scale memristorbased circuits and hybrid hardware architectures, and
+also to explore similar behaviors observed for instance in
+biological synapse systems
+\par
+While models at different size scales and thus with different degrees of physical details and computational complexity have been developed for memritors, including but not limited to ab initio, Kinetic Monte Carlo, and finite element method modells, in this work we focus on the circuit-level (compact) current-voltage behavior of the memristors. From this point of view, Memristors are generally described by the systems of coupled equations: 
+\begin{align}{}
+     i &= G(v,x)v, \\
+     \dot{x} &= f(x,v),
+\end{align}
+
+where $i = i(t)$ is the current through the device, $v = v(t)$
+is the applied voltage, and $x = x(t)$ corresponds to a state
+variable or a group of state variables that quantify the
+internal dynamics of the device. These are, for example,
+width of doping region, concentration of vacancies in the gap region, and tunneling barrier width. State vairables can not be observed from external electrical behavior. Eq1. (1) follows the $i-v$ curve of the resistive device in the question with $G(v,x)$ being the generalized conductance, whereas Eq. describes the dynamics of the it's internal state x based on it's prehistory. The actual stat of a memristor can only be determined by solving Eqs. (1) and (2) self-consistently. Memristive systems as featured
+in terms of Eqs. (1) and (2) are known to possess a pinched hysteresis loop at the origin in the i-v plane in the response to any periodic voltage source. \par
+Being versatile and modular enough it is the Yakopcic model 27–29 which is most often used to simulate
+the nonlinear i-v characteristic of wide range of memristors in response to sinusoidal and repetitive sweeping
+inputs. The model takes into account electron transmission effects, voltage threshold for state variable motion,
+and nonlinear velocity function for oxygen vacancies or
+dopant drift, considered to be the most relevant internal
+state information29. It follows on the steps of Strukov et
+al. work30, and describes the memristor as two resistors
+in series characterized by electron transmission equations
+so that:
+\begin{align}{}
+     i(t) = h_1 (v)x + h_2 (v)(1-x)
+\end{align}
+Here, h1 is used to model the behavior in the low resistance state of the device, and h2 captures its behavior in the high-resistance state.
+The two electron transmission equations are weighted and mixed by the state
+variable x which is set to take values between zero and
+one25. In memristive devices, it is the rate of change of
+the state variable x that is explicitly determined (2), and
+is given in the Yakopcic memristor model by the product
+of the two composite functions g(v) and f(x) such that29:
+\begin{align}{}
+     \dot{x} = g(v)f(x).
+\end{align}
 \end{multicols}
 \end{document}
