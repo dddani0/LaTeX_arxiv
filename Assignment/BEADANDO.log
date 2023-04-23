@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  22 APR 2023 22:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  23 APR 2023 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -248,7 +248,7 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@orf=\skip64
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-5.
+0.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -261,50 +261,50 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 ) (BEADANDO.aux)
 \openout1 = `BEADANDO.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 OK 2
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-9.
+4.
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-69.
+64.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-69.
+64.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 69.
+(Font)              <12> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 69.
+(Font)              <8> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 69.
+(Font)              <6> on input line 64.
 
 ! Undefined control sequence.
 <argument> ...\rightmargin \leftmargin \parsep \z 
                                                   \plus \p 
-l.88 \begin{abstract}
+l.83 \begin{abstract}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -315,7 +315,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...margin \leftmargin \parsep \z \plus 
                                                   \p 
-l.88 \begin{abstract}
+l.83 \begin{abstract}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -326,7 +326,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...gin \leftmargin \parsep \z \plus \p 
                                                   
-l.88 \begin{abstract}
+l.83 \begin{abstract}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -337,7 +337,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.88 \begin{abstract}
+l.83 \begin{abstract}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -346,7 +346,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.88 \begin{abstract}
+l.83 \begin{abstract}
                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -356,18 +356,18 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (0.97476pt too wide) in paragraph at lines 89--90
+Overfull \hbox (0.97476pt too wide) in paragraph at lines 84--85
 []\OT1/lmr/m/n/9 We pro-pose a circuit-level model com-bin-ing the Marcus-Hush-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 99--122
+Underfull \hbox (badness 6592) in paragraph at lines 94--117
 \OT1/lmr/m/n/10 been ded-i-cated to the de-vel-op-
  []
 
@@ -375,55 +375,159 @@ Underfull \hbox (badness 6592) in paragraph at lines 99--122
 
 {C:/Users/Danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 124.
+(Font)              <10> on input line 119.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 124.
+(Font)              <7> on input line 119.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 124.
+(Font)              <5> on input line 119.
  [2]
+Overfull \hbox (34.42912pt too wide) detected at line 158
+[]
+ []
 
-! LaTeX Error: Unicode character ^^B (U+0002)
-               not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.148 The two electron trans^^B
-                               mission equations are weighted and mixed by t...
+Underfull \hbox (badness 10000) in paragraph at lines 158--163
+\OT1/lmr/m/n/10 including pro-gram-ming volt-age
+ []
 
-You may provide a definition with
-\DeclareUnicodeCharacter 
+! Missing } inserted.
+<inserted text> 
+                }
+l.166 \end{align}
+                 
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
 
-[3] (BEADANDO.aux) )
+! Extra }, or forgotten $.
+<argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
+                                                  \end {cases} 
+l.166 \end{align}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.166 \end{align}
+                 
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
+                                                  \end {cases} 
+l.166 \end{align}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (9.9278pt too wide) detected at line 166
+[]
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.171 \end{align}
+                 
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
+                                                  \end {cases} 
+l.171 \end{align}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.171 \end{align}
+                 
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
+                                                  \end {cases} 
+l.171 \end{align}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (13.84618pt too wide) detected at line 171
+[]
+ []
+
+[3]
+
+LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
+(Font)              using `OT1/lmr/bx/n' instead on input line 219.
+
+
+Overfull \hbox (45.7965pt too wide) detected at line 232
+[]
+ []
+
+[4] [5] (BEADANDO.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 79 ({)
+### simple group (level 1) entered at line 74 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2261 strings out of 475385
- 36402 string characters out of 2776906
- 393964 words of memory out of 3000000
- 23642 multiletter control sequences out of 15000+600000
+ 2264 strings out of 475385
+ 36443 string characters out of 2776906
+ 400965 words of memory out of 3000000
+ 23645 multiletter control sequences out of 15000+600000
  512982 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,12n,62p,638b,366s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 54i,16n,62p,638b,366s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/l
-m/lm-rm.enc}{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm
--mathsy.enc}{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm
--mathit.enc}<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
+m/lm-mathsy.enc}{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/l
+m/lm-mathit.enc}{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/l
+m/lm-mathex.enc}{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/l
+m/lm-rm.enc}<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
 /lmbx12.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
+/lmex10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
 /lmmi10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmr10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmr12.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
-mr7.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
-8.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.
-pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.
-pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.
-pfb>
-Output written on BEADANDO.pdf (3 pages, 203387 bytes).
+/lmmi5.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmmi7.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mr10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
+r12.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
+7.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.
+pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pf
+b><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pf
+b><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pf
+b><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb
+>
+Output written on BEADANDO.pdf (5 pages, 236965 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

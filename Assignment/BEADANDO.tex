@@ -9,28 +9,23 @@
 %││
 %└┘
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{amsmath}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath} %for math equations and formality (like. \text{})
 \usepackage{multicol} % multiple column package
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{authblk}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{blindtext} %Remove later
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{indentfirst}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{lmodern}
 \usepackage{etoolbox}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{fancyhdr} 
+\usepackage{fancyhdr} % for nicer header
 \pagestyle{fancy}
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt} % sets both header and footer to nothing
-\fancyhead[R]{\thepage}
 \usepackage{authblk} % több author címke
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\headrulewidth}{0pt} % sets both header and footer to nothing
+\fancyhf{} % removes numbering from bottom of the page
+\fancyhead[R]{\thepage}
 % Roman numerals for numbering
 \renewcommand{\thesection}{\Roman{section}} 
+\renewcommand{\abstractname}{} % clear the title for abstract
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %┌──┐ ┌───┐┌───┐┌┐  ┌┐
 %│┌┐│ │┌─┐│└┐┌┐││└┐┌┘│
@@ -46,6 +41,7 @@
 {Fractional Marcus-Hush-Chidsey-Yakopcic current-voltage model for redox-based resistive memory devices}
 }
 \makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \author[1]{Georgii Paradezhenko}
 \author[1]{Dmitrii Prodan}
 \author[1]{Anastasiia Pervishko}
@@ -55,7 +51,6 @@
 \affil[2]{\textit{Department of Sustainable and Renewable Energy Engineering, University of Sharjah, Sharjah, P.O. Box 27272, United Arab Emirates}}
 \affil[3]{\textit{Department of Mechanical and Materials Engineering,
 Florida International University, Miami, FL33174, United States}}
-\renewcommand{\abstractname}{}    % clear the title
 \setlength{\parindent}{20pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -93,7 +88,7 @@ We propose a circuit-level model combining the Marcus-Hush-Chidsey electron curr
 \setlength{\columnsep}{0.8cm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{multicols}{2}
-{\centering %Only center the section title
+{\centering % Only center the section title
 \section{Introduction}
 }
 Substantial research efforts have been dedicated to the
@@ -142,10 +137,10 @@ al. work30, and describes the memristor as two resistors
 in series characterized by electron transmission equations
 so that:
 \begin{align}{}
-     i(t) = h_1 (v)x + h_2 (v)(1-x)
+     i(t) = h_1 (v)x + h_2 (v)(1-x) .
 \end{align}
 Here, h1 is used to model the behavior in the low resistance state of the device, and h2 captures its behavior in the high-resistance state.
-The two electron transmission equations are weighted and mixed by the state
+The two electron transmission equations are weighted and mixed by the state
 variable x which is set to take values between zero and
 one25. In memristive devices, it is the rate of change of
 the state variable x that is explicitly determined (2), and
@@ -153,6 +148,87 @@ is given in the Yakopcic memristor model by the product
 of the two composite functions g(v) and f(x) such that29:
 \begin{align}{}
      \dot{x} = g(v)f(x).
+\end{align}
+An exponential dependency of the state change to the
+positive and negative regions of the input voltage v is
+modelled in terms of
+\begin{align}{}
+     g(v) = \begin{cases} a_p \cdot (1-e^{U_p -v}) \cdot e^v, &u-u_p > 0, \\ a_n \cdot (e^{u_n +v}-1)\cdot e^{-v}, &u+u_n < 0, \\
+     \centering 0, &\text{otherwise}\end{cases}
+\end{align}
+including programming voltage thresholds up and un.
+The magnitude of state change for a voltage potential
+is defined with ap and an. The second function f(x) is
+determined by
+\begin{align}{}
+    f(x) = \begin{cases} w_p (x, x_p) \cdot e^{-(x-x_p), &x \ge x_p, \\
+    1 &x < x_p,}\end{cases}
+\end{align}
+for $v > 0$, while $v < 0$, it is defined as
+\begin{align}{}
+    f(x) = \begin{cases} w_n (x, x_n) \cdot e^{x+x_n-1), &x \le x_n, \\
+    1 &x > x_n,}\end{cases}
+\end{align}
+Effectively, this function introduces the nonlinear ion motion, as it becomes harder to change the state of the
+devices when the state variable approaches the boundaries. In Eq. (6), $w_p(x, x_p)$ is a windowing function that
+ensures $f(x)$ equals zero when $x(t) = 1$, and in (7),
+$w_n(x, x_n)$ keeps $x(t)$ from becoming less than 0 when
+the current flow is reversed. These two functions can explicitly be written as $w_p(x, x_p) = 1 + (x_p - x)/( 1 - x_p)$
+and $w_n(x, x_n) = x/(1 - x_n)$. \par
+Clearly, in (3), the functions h1 and h2 are dependent on the structure and type of memristor under study.
+Several types of resistive switching memory devices can
+be classified as nanoionic-based electrochemical systems,
+wherein an ion conductor in the form of electron insulator layer is placed between two electrodes31,32. For the
+case of cation-migration-based electrochemical metallization memory cells, Ag or Cu are typically used as active
+electrodes, Pt or W as counter electrodes, and a variety
+of oxides or chalcogenides thin films as solid electrolytes.
+When a positive voltage is applied, the active electrode
+material is oxidized at the electrode–electrolyte interface
+leading to the release of metallic ions in the adjacent electrolyte, followed by drift and diffusion of these ions across
+the electrolyte, and then their deposition in filamentarylike metal structures at the counter electrode surface.
+Short-circuit occurs when the filament has grown sufficiently far to make an electronic contact with the opposite electrode, which defines the low-resistance state of
+the cell. When a negative voltage is applied, the cell returns back, in principle reversibly, to the high-resistance state31. Anion-migration-based valence change cells, on
+the other hand, are formed by placing a metal oxide
+between for example Pt or TiN electrodes and another
+oxygen-affine, lower work function electrode. The lowresistance and high-resistance states are defined based on
+the electrochemical formation of oxygen-deficient, mixed
+ionic–electronic conducting filaments, and the nanoionic
+modification of the potential barrier between the tip of
+the filament and the electrode it faces31. For these types
+of redox-based resistive memory cells, it is more appropriate to consider electron transfer theory associated with
+the kinetics of redox reactions to better describe their i-v
+characteristics. Furthermore, because the formation and
+rupture of the metallic filaments follow random paths,
+the possibility of charge trapping from one operation sequence to another, charge leakage, the dynamics of an
+internal state variable associated with these cells cannot
+be defined solely based on its immediate past, in other
+words via integer-order derivative as in (2). Taking into
+account the integral past is believed to be more representative for a proper mathematical description of the
+complexity and dissipative nature of these cells.\par 
+Motivated by these observations, we herein propose
+a circuit-level model for redox-based resistive memory
+devices, where the current equation (1) is taken from
+the Marcus-Hush-Chidsey (MHC) theory33–35 of heterogeneous electron transfer, while the state variable equation (2) is taken from the Yakopcic generalized memristive model27. We consider the dynamics of the state variable with respect to time to be of fractional, non-integer,
+order. Mathematically, this adds an extra degree of freedom to the model that can be generically correlated to
+the non-perfect reversibility of the device when looking
+at it from one cycle to another. We fit the extended
+model to the experimental data obtained on a Si memristor with Ag-Cu alloy as reported in36. A close inspection
+of numerical results unambiguously reveals that switching to the fractional derivative allows one to significantly
+improve the agreement between the theory and experimental data.
+{\centering % Only center the section title
+\section{\scshape Memristor model}
+}
+The generalized i-v relationship, as specified by Eq. (1), for the proposed memristor model reads
+\begin{align}{}
+    i = \gamma _1 x h(\delta _1 v) + \gamma _2(1 - x) h (\delta _2 v),
+\end{align}
+where $\delta _1, \delta _2, \gamma _1, \gamma _2 > 0$ are model parameters, and the function
+\begin{align}{}
+    h (v) = h_+ (v) - h_- (v),
+\end{align}
+is based on the MHC model for electron transfer described by the Gauss-Fermi integral,
+\begin{align}{}
+    h_\pm (v) = \beta \int_{-\infty}^\infty = \exp{\biggl\{ -\frac{(z - \lambda \pm v)^2}{4 \lambda} \biggr\} } \frac{\,dz}{1+e^z}.
 \end{align}
 \end{multicols}
 \end{document}
