@@ -13,9 +13,10 @@
 \usepackage{amsmath} %for math equations and formality (like. \text{})
 \usepackage{multicol} % multiple column package
 \usepackage{authblk}
-\usepackage{blindtext} %Remove later
+\usepackage{graphicx}
 \usepackage{indentfirst}
 \usepackage{lmodern}
+\usepackage{pgfplots} % for graphing (page 5 on the official document)
 \usepackage{etoolbox}
 \usepackage{tabularx}
 \usepackage{authblk} % több author címke
@@ -382,5 +383,48 @@ We fitted the memristor specified by Eqs. (8) and (11) combining the MHC-based s
 with $u_0 = 6 V$ and $f = 1 Hz$ in the unit time interval $t \\textit{n [0,1]}$. The measured $i-v$ signals were separated
 into six sequences, and then averaged into a single $i-v$ characteristic cycle on which fitting is performed. \par
 The numerical simulations of the models with the ordinary and fractional derivatives fitted to the experimental
+\begin{figure}
+    \includegraphics[scale=0.8]{latex_figure_a.png}
+    \caption{a,}
+    \label{fig:my_label}
+\end{figure}
+Fit of the $i-v$ characteristic calculated by the MHC Yakopcic model to the data obtained for the memristor device
+developed in Skoltech, where the dynamics of a state variable
+is described by a) the ordinary differential equation (4) and
+b) the fractional differential equation (11).
+i-v data are presented in Fig. 1. As mentioned above
+we considered the equilibrium Nernst-potential of the
+electrode to be zero, so that the electrochemical potential in Eqs. (8) and (11) is equal to the actual applied
+voltage on the device. The corresponding fitting parameters are provided in Table I. As one can see, the
+MHC-Yakopcic model fits very well to the experimental data with NRMSE = 0.401 for the fractional order
+$\alpha = 0.697$. Remarkably enough, $\text{NRMSE} = 0.399$ when
+the state variable evolves according to the ordinary differential equation, i.e., with $\alpha = 1$. In comparison, the
+q-deformed memristor model recently reported in36 resulted in $\text{NRMSE} = 0.457$. The q-deformed model was
+derived by taking into account gamma-distributed local
+spatial inhomogeneities in the device structure. This provided a noticeable improvement in the fitting of the $i-v$ response of the same device under study here when
+compared to the currently used existing model (i.e., the
+Yakopcic model with MIM and Schottky electron transmission equations)36. However, as mentioned above,
+the kinetics of electrode reactions in redox-based electrochemical metallization memory cells should be rather described by electron transfer theory. \par
+The value of $\alpha = 0.697$ (Table I) in the fractional
+derivative for the state variable equation indicates that
+its dynamics does not evolve without prior knowledge of
+all past information of its state or memory of its past.
+This can be clearly illustrated by rewriting Eq. (21) as:
+\begin{align}
+   x_h^P (t_{n+1}) = \frac{h^\alpha}{\Gamma (\alpha + 1)} \biggl\{ F_n + \sum_{j=0}^{n-1} F_j \cdot b_{n-j} \biggr\} + ...,
+\end{align}
+which can be decoupled as the the sum of the immediate past of the state variable, and a memory trace41, represented by the second summation term, that contains information about all previous states of the device. \par
+The magnitude of the memory trace term increases when $\alpha$ decreases further away from one, and when we are close to the actual instant t at which the variable is evaluated. At the limiting case of $\alpha = 1$, corresponding
+to first-order integer derivative, the memory trace part
+vanishes, and does not have any effect on the dynamics of
+the state variable. Here, because $\alpha = 1$ we may speak of
+an intrinsic memory embedded in our redox-based resistive memory device. Fractional dynamics are in fact very often observed in electrochemical devices and complex systems42–48. Indeed, a close inspection of Table I reveals that the fractional MHC-Yakopcic memristor model is practically insensitive to the input voltage $a_p, a_n \approx 0.$.
+{\centering % Only center the section title
+\section{Conclusion}
+}
+In this work we proposed a compact and accurate model for describing the electrical behavior of redoxbased resistive memory devices in which (i) the statecontrolled current-voltage equation is based on the MHC theory for electron transfer, and (ii) the dynamics of the
+state variable is assumed to follow fractional time derivatives of order $\alpha (0 < \alpha < 1).$ 
+For the numerical solution to the MHC integral we used the Gauss-Hermite quadrature method and for the fractional differential equation
+of the state variable we used an Adams-type predictor corrector technique. Goodness of fit to the experimental data is evaluated in terms of NRMSE, and indicates superior capabilities of the proposed model when compared to recently reported ones. The obtained results, in connection to the electrochemical nature of the device under test, point out to necessity to take into consideration fractional dynamics when describing the $i-v$ characteristics of redox-based resistive memory devices. The fractional parameter can be viewed as an additional quantity representing the non-ideality, dissipative behavior of these devices.
 \end{multicols}
 \end{document}
