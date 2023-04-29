@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  26 APR 2023 19:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  29 APR 2023 23:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -726,6 +726,16 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \TX@cols=\count316
 \TX@ftn=\toks40
 )
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.s
+ty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count317
+\cp@tempcnt=\count318
+)
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/bold-extra\bold-extra.s
+ty
+Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
+)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
@@ -739,8 +749,8 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip65
 \f@nch@O@orf=\skip66
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-4.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+9.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -748,25 +758,25 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count317
+\l__color_backend_stack_int=\count319
 \l__pdf_internal_box=\box112
 ) (BEADANDO.aux)
 \openout1 = `BEADANDO.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -776,15 +786,15 @@ LaTeX Font Info:    ... okay on input line 64.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
+* h-part:(L,W,R)=(51.21504pt, 511.86491pt, 51.21504pt)
+* v-part:(T,H,B)=(14.22636pt, 729.52858pt, 51.21504pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=528.93675pt
-* \textheight=709.61174pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
-* \topmargin=-66.59087pt
+* \textwidth=511.86491pt
+* \textheight=729.52858pt
+* \oddsidemargin=-21.05495pt
+* \evensidemargin=-21.05495pt
+* \topmargin=-95.04362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -806,16 +816,16 @@ LaTeX Font Info:    ... okay on input line 64.
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
+\scratchcounter=\count320
 \scratchdimen=\dimen296
 \scratchbox=\box113
-\nofMPsegments=\count319
-\nofMParguments=\count320
+\nofMPsegments=\count321
+\nofMParguments=\count322
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count321
+\MPscratchCnt=\count323
 \MPscratchDim=\dimen297
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
 \everyMPtoPDFconversion=\toks42
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -832,105 +842,75 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 64.
+ on input line 59.
 
-OK 2
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-8.
+2.
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-68.
+62.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-68.
+62.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 68.
+(Font)              <12> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 68.
+(Font)              <8> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 68.
+(Font)              <6> on input line 62.
 
-! Undefined control sequence.
-<argument> ...\rightmargin \leftmargin \parsep \z 
-                                                  \plus \p 
-l.87 \begin{abstract}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<argument> ...margin \leftmargin \parsep \z \plus 
-                                                  \p 
-l.87 \begin{abstract}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+! LaTeX Error: Environment justifying undefined.
 
-! Undefined control sequence.
-<argument> ...gin \leftmargin \parsep \z \plus \p 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-l.87 \begin{abstract}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.87 \begin{abstract}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.87 \begin{abstract}
-                     
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
+l.68 \begin{justifying}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 122.
+(Font)              <10> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 122.
+(Font)              <7> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 122.
+(Font)              <5> on input line 69.
+
+! LaTeX Error: \begin{list} on input line 67 ended by \end{justifying}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \end{justifying}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
+(Font)              using `OT1/lmr/bx/n' instead on input line 79.
+
 [1
 
 {C:/Users/Danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.169 \end{align}
+l.151 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -939,7 +919,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} 
-l.169 \end{align}
+l.151 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -950,7 +930,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.169 \end{align}
+l.151 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -959,7 +939,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} 
-l.169 \end{align}
+l.151 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -970,7 +950,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.174 \end{align}
+l.156 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -979,7 +959,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} 
-l.174 \end{align}
+l.156 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -990,7 +970,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.174 \end{align}
+l.156 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -999,23 +979,19 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} 
-l.174 \end{align}
+l.156 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
-
-
-LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 222.
 
 [2]
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.288 \end{align}
+l.271 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1026,7 +1002,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.288 \end{align}
+l.271 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1035,36 +1011,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 340--343
+Underfull \hbox (badness 10000) in paragraph at lines 323--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--372
+Underfull \hbox (badness 10000) in paragraph at lines 351--355
 
  []
 
-
-LaTeX Warning: File `latex_figure_a.png' not found on input line 387.
-
-
-! Package pdftex.def Error: File `latex_figure_a.png' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.387 ...degraphics[scale=0.8]{latex_figure_a.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-387.
-(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
-File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+<latex_figure_a.png, id=28, 268.00125pt x 186.6975pt>
+File: latex_figure_a.png Graphic file (type png)
+<use latex_figure_a.png>
+Package pdftex.def Info: latex_figure_a.png  used on input line 370.
+(pdftex.def)             Requested size: 214.40128pt x 149.35818pt.
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
 environment!.
@@ -1077,7 +1037,7 @@ environment!.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.429 \end{multicols}
+l.412 \end{multicols}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1089,41 +1049,36 @@ my insertion and my current dilemma will both disappear.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 78 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 24116 strings out of 475385
- 626158 string characters out of 2776906
- 1118726 words of memory out of 3000000
- 45080 multiletter control sequences out of 15000+600000
- 525060 words of font info for 59 fonts, out of 8000000 for 9000
+ 24125 strings out of 475385
+ 626905 string characters out of 2776906
+ 1116766 words of memory out of 3000000
+ 45099 multiletter control sequences out of 15000+600000
+ 515912 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,103p,784b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/l
-m/lm-rm.enc}{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm
--mathsy.enc}{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm
--mathit.enc}{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm
--mathex.enc}<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmbx10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmbx12.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmex10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmmi10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmmi5.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmmi7.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
-mr10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
-r12.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
-5.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.
-pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pf
-b><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb>
-<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on BEADANDO.pdf (5 pages, 306878 bytes).
+{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{D
+:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D
+:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D
+:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<D
+:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D
+:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D
+:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><D
+:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D
+:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><D:
+/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D:/
+Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/U
+sers/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><D:/Us
+ers/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><D:/User
+s/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Users/
+Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><D:/Users/Da
+nie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><D:/Users/Da
+nie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Users/Da
+nie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
+Output written on BEADANDO.pdf (5 pages, 283372 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
