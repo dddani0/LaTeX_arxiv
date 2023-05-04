@@ -9,12 +9,13 @@
 %││
 %└┘
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[margin={1.8cm,1.8cm},top=0.3cm, bottom=2cm]{geometry}
+\usepackage[margin={1.8cm,1.8cm},top=2cm, bottom=2cm]{geometry}
 \usepackage{amsmath} %for math equations and formality (like. \text{})
 \usepackage{multicol} % multiple column package
 \usepackage{authblk}
 \usepackage{afterpage} % hacky page geometry
 \usepackage{graphicx}
+\usepackage{mwe}
 \usepackage{indentfirst}
 \usepackage{lmodern}
 \usepackage{pgfplots} % for graphing (page 5 on the official document)
@@ -31,12 +32,11 @@
 \fancyhf{} % removes numbering from the bottom of the page
 \fancyhead[R]{\thepage}
 % Roman numerals for numbering
-\renewcommand{\thesection}{\sc \Roman{section}.} % Use roman numerals instead
+\renewcommand{\thesection}{\sc{\Roman{section}}.} % Use roman numerals instead
 \renewcommand\thesubsection{\Alph{subsection}} % use A,B,C ...
 \renewcommand{\abstractname}{} % clear the title for abstract
-
 \makeatletter
-\title{\fontfamily{ptm} \bfseries \Large Fractional Marcus-Hush-Chidsey-Yakopcic current-voltage model for redox-based resistive memory devices}
+\title{\vspace{-4em} \fontfamily{ptm} \bfseries \Large Fractional Marcus-Hush-Chidsey-Yakopcic current-voltage model for redox-based resistive memory devices}
 \date{(Dated: February 21, 2023)}
 \makeatother
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -74,7 +74,7 @@ We propose a circuit-level model combining the Marcus-Hush-Chidsey electron curr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{multicols}{2}
 {\centering % Only center the section title
-\section{\sc{Introduction}}}
+\section{\sc{introduction}}}
 Substantial research efforts have been dedicated to the development of electrically-controlled resistive switching in metal-insulator-metal (MIM) devices or memristors, going from new materials discovery to modelling and simulation, and design and applications. With both memory and logic capabilities combined at the hardware level, in addition to long retention times and high switching rates at relatively low energy consumption, these devices are favorably seen as the next-generation building blocks for nonvolatile memories and neuromorphic computing applications. In a typical memristor, the resistive switching is based on the electrically-stimulated change of cell resistance usually driven by internal ion redistribution, which actually depends not only on the applied excitation but also on the past history of the excitation. Physical mechanisms associated with these reversible transitions have been attributed to different effects including valencechange, electrochemical metallization, and phase change effects. They can be either abrupt (binary) or gradual (analogue), and evolve at different timescales, leading to rich and complex device behaviors in this seemingly simple device structure of just three layers. Furthermore, with the wide range of diversity in memristors materials and their morphologies, operating mechanisms, and manufacturing technologies there is an urgent need for the development of a general model capable of capturing accurately and effectively their complex nonlinear dynamics. This is crucial not only for the characterization and comparison between different memristor devices, but also for the investigation of larger scale memristorbased circuits and hybrid hardware architectures, and also to explore similar behaviors observed for instance in biological synapse systems.
 \par
 While models at different size scales and thus with different degrees of physical details and computational complexity have been developed for memritors, including but not limited to ab initio, Kinetic Monte Carlo, and finite element method modells, in this work we focus on the circuit-level (compact) current-voltage behavior of the memristors. From this point of view, Memristors are generally described by the systems of coupled equations: 
@@ -82,7 +82,6 @@ While models at different size scales and thus with different degrees of physica
      i &= G(v,x)v, \\
      \dot{x} &= f(x,v),
 \end{align}
-
 where $i = i(t)$ is the current through the device, $v = v(t)$
 is the applied voltage, and $x = x(t)$ corresponds to a state
 variable or a group of state variables that quantify the

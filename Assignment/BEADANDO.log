@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  4 MAY 2023 18:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  5 MAY 2023 00:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -223,7 +223,54 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen167
 \Gin@req@width=\dimen168
+) (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/mwe\mwe.sty
+Package: mwe 2018/03/30 v0.5 Package to support minimal working examples (MWE)
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-09-28 L3 programming layer (loader) 
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count287
+\l__pdf_internal_box=\box100
+))
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
 )
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count288
+\l__lipsum_a_int=\count289
+\l__lipsum_b_int=\count290
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count291
+\c@Blindtext=\count292
+\c@blind@countparstart=\count293
+\blind@countxx=\count294
+\blindtext@numBlindtext=\count295
+\blind@countyy=\count296
+\c@blindlist=\count297
+\c@blindlistlevel=\count298
+\c@blindlist@level=\count299
+\blind@listitem=\count300
+\c@blind@listcount=\count301
+\c@blind@levelcount=\count302
+\blind@mathformula=\count303
+\blind@Mathformula=\count304
+\c@blind@randomcount=\count305
+\c@blind@randommax=\count306
+\c@blind@pangramcount=\count307
+\c@blind@pangrammax=\count308
+))
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
@@ -282,7 +329,7 @@ y
 -common-lists.tex))
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
-\pgfutil@abb=\box100
+\pgfutil@abb=\box101
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
@@ -320,14 +367,14 @@ filtered.code.tex
 \pgf@yd=\dimen180
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count287
-\c@pgf@countb=\count288
-\c@pgf@countc=\count289
-\c@pgf@countd=\count290
+\c@pgf@counta=\count309
+\c@pgf@countb=\count310
+\c@pgf@countc=\count311
+\c@pgf@countd=\count312
 \t@pgf@toka=\toks28
 \t@pgf@tokb=\toks29
 \t@pgf@tokc=\toks30
-\pgf@sys@id@count=\count291
+\pgf@sys@id@count=\count313
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
@@ -346,8 +393,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count292
-\pgfsyssoftpath@bigbuffer@items=\count293
+\pgfsyssoftpath@smallbuffer@items=\count314
+\pgfsyssoftpath@bigbuffer@items=\count315
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -384,8 +431,8 @@ code.tex)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen181
-\pgfmath@count=\count294
-\pgfmath@box=\box101
+\pgfmath@count=\count316
+\pgfmath@box=\box102
 \pgfmath@toks=\toks31
 \pgfmath@stack@operand=\toks32
 \pgfmath@stack@operation=\toks33
@@ -410,7 +457,7 @@ ions.misc.code.tex)
 ions.integerarithmetics.code.tex)))
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count295
+\c@pgfmathroundto@lastzeros=\count317
 ))
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
@@ -447,10 +494,10 @@ File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box102
-\pgf@hbox=\box103
-\pgf@layerbox@main=\box104
-\pgf@picture@serial@count=\count296
+\pgfpic=\box103
+\pgf@hbox=\box104
+\pgf@layerbox@main=\box105
+\pgf@picture@serial@count=\count318
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -485,8 +532,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen261
-\pgf@sys@shading@range@num=\count297
-\pgf@shadingcount=\count298
+\pgf@sys@shading@range@num=\count319
+\pgf@shadingcount=\count320
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -495,7 +542,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box105
+\pgfexternal@startupbox=\box106
 ))
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
@@ -516,7 +563,7 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box106
+\pgfnodeparttextbox=\box107
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
@@ -559,7 +606,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count299
+\pgf@plot@mark@count=\count321
 \pgfplotmarksize=\dimen266
 )
 \tikz@lastx=\dimen267
@@ -570,23 +617,23 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen272
 \tikzleveldistance=\dimen273
 \tikzsiblingdistance=\dimen274
-\tikz@figbox=\box107
-\tikz@figbox@bg=\box108
-\tikz@tempbox=\box109
-\tikz@tempbox@bg=\box110
-\tikztreelevel=\count300
-\tikznumberofchildren=\count301
-\tikznumberofcurrentchild=\count302
-\tikz@fig@count=\count303
+\tikz@figbox=\box108
+\tikz@figbox@bg=\box109
+\tikz@tempbox=\box110
+\tikz@tempbox@bg=\box111
+\tikztreelevel=\count322
+\tikznumberofchildren=\count323
+\tikznumberofcurrentchild=\count324
+\tikz@fig@count=\count325
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count304
-\pgfmatrixcurrentcolumn=\count305
-\pgf@matrix@numberofcolumns=\count306
+\pgfmatrixcurrentrow=\count326
+\pgfmatrixcurrentcolumn=\count327
+\pgf@matrix@numberofcolumns=\count328
 )
-\tikz@expandcount=\count307
+\tikz@expandcount=\count329
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -600,8 +647,8 @@ e.tex
 \t@pgfplots@tokb=\toks37
 \t@pgfplots@tokc=\toks38
 \pgfplots@tmpa=\dimen275
-\c@pgfplots@coordindex=\count308
-\c@pgfplots@scanlineindex=\count309
+\c@pgfplots@coordindex=\count330
+\c@pgfplots@scanlineindex=\count331
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
 sysgeneric.code.tex))
@@ -619,13 +666,13 @@ e\pgfplotsliststructure.code.tex)
 e\pgfplotsliststructureext.code.tex)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count310
+\c@pgfplotsarray@tmp=\count332
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsmatrix.code.tex)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
 plotstableshared.code.tex
-\c@pgfplotstable@counta=\count311
+\c@pgfplotstable@counta=\count333
 \t@pgfplotstable@a=\toks39
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
@@ -638,7 +685,7 @@ sbinary.data.code.tex))
 sutil.verb.code.tex)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
 arypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count312
+\c@pgfplotslibrarysurf@no=\count334
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
 rypgfplots.surfshading.pgfsys-pdftex.def)))
@@ -675,11 +722,11 @@ decorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen278
 \pgfdecoratedinputsegmentremainingdistance=\dimen279
 \pgf@decorate@distancetomove=\dimen280
-\pgf@decorate@repeatstate=\count313
+\pgf@decorate@repeatstate=\count335
 \pgfdecorationsegmentamplitude=\dimen281
 \pgfdecorationsegmentlength=\dimen282
 )
-\tikz@lib@dec@box=\box111
+\tikz@lib@dec@box=\box112
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
@@ -691,7 +738,7 @@ z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
 ions\pgflibrarydecorations.pathreplacing.code.tex))
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
 rarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count314
+\pgfplots@numplots=\count336
 \pgfplots@xmin@reg=\dimen283
 \pgfplots@xmax@reg=\dimen284
 \pgfplots@ymin@reg=\dimen285
@@ -709,7 +756,7 @@ File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count315
+\etb@tempcnta=\count337
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
@@ -717,26 +764,26 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen289
-\ar@mcellbox=\box112
+\ar@mcellbox=\box113
 \extrarowheight=\dimen290
 \NC@list=\toks40
 \extratabsurround=\skip56
 \backup@length=\skip57
-\ar@cellbox=\box113
+\ar@cellbox=\box114
 )
 \TX@col@width=\dimen291
 \TX@old@table=\dimen292
 \TX@old@col=\dimen293
 \TX@target=\dimen294
 \TX@delta=\dimen295
-\TX@cols=\count316
+\TX@cols=\count338
 \TX@ftn=\toks41
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.s
 ty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count317
-\cp@tempcnt=\count318
+\c@cp@cntr=\count339
+\cp@tempcnt=\count340
 ) (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
@@ -796,12 +843,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count319
-\l__pdf_internal_box=\box114
-) (BEADANDO.aux)
+(BEADANDO.aux)
 \openout1 = `BEADANDO.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -828,14 +870,14 @@ LaTeX Font Info:    ... okay on input line 60.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(51.21504pt, 511.86491pt, 51.21504pt)
-* v-part:(T,H,B)=(8.5359pt, 729.52858pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=511.86491pt
-* \textheight=729.52858pt
+* \textheight=681.15898pt
 * \oddsidemargin=-21.05495pt
 * \evensidemargin=-21.05495pt
-* \topmargin=-100.73409pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -857,16 +899,16 @@ LaTeX Font Info:    ... okay on input line 60.
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
+\scratchcounter=\count341
 \scratchdimen=\dimen296
 \scratchbox=\box115
-\nofMPsegments=\count321
-\nofMParguments=\count322
+\nofMPsegments=\count342
+\nofMParguments=\count343
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count323
+\MPscratchCnt=\count344
 \MPscratchDim=\dimen297
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
 \everyMPtoPDFconversion=\toks43
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -927,7 +969,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 ! Missing } inserted.
 <inserted text> 
                 }
-l.128 \end{align}
+l.127 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -936,7 +978,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} 
-l.128 \end{align}
+l.127 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -947,7 +989,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.128 \end{align}
+l.127 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -956,7 +998,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} 
-l.128 \end{align}
+l.127 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -967,7 +1009,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.133 \end{align}
+l.132 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -976,7 +1018,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} 
-l.133 \end{align}
+l.132 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -987,7 +1029,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.133 \end{align}
+l.132 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -996,7 +1038,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} 
-l.133 \end{align}
+l.132 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1008,7 +1050,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.248 \end{align}
+l.247 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1019,7 +1061,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.248 \end{align}
+l.247 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1028,19 +1070,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 300--303
+Underfull \hbox (badness 10000) in paragraph at lines 299--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--332
+Underfull \hbox (badness 10000) in paragraph at lines 327--331
 
  []
 
 <latex_figure_a.png, id=23, 268.00125pt x 186.6975pt>
 File: latex_figure_a.png Graphic file (type png)
 <use latex_figure_a.png>
-Package pdftex.def Info: latex_figure_a.png  used on input line 347.
+Package pdftex.def Info: latex_figure_a.png  used on input line 346.
 (pdftex.def)             Requested size: 214.40128pt x 149.35818pt.
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
@@ -1054,7 +1096,7 @@ environment!.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.389 \end{multicols}
+l.388 \end{multicols}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1064,10 +1106,10 @@ my insertion and my current dilemma will both disappear.
 
 [5] (BEADANDO.aux) ) 
 Here is how much of TeX's memory you used:
- 24274 strings out of 475385
- 629112 string characters out of 2776906
- 1119269 words of memory out of 3000000
- 45223 multiletter control sequences out of 15000+600000
+ 24944 strings out of 475385
+ 644615 string characters out of 2776906
+ 1220632 words of memory out of 3000000
+ 45868 multiletter control sequences out of 15000+600000
  512485 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,103p,1856b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1082,7 +1124,7 @@ Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/P
 rograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/P
 rograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/P
 rograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on BEADANDO.pdf (5 pages, 128985 bytes).
+Output written on BEADANDO.pdf (5 pages, 129651 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
