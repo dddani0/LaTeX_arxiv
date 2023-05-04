@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  29 APR 2023 23:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  4 MAY 2023 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -195,6 +195,12 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count285
 \c@affil=\count286
 )
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks23
+\AP@partial=\box98
+\AP@footins=\box99
+)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -268,7 +274,7 @@ sty
 y
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks23
+\pgfutil@everybye=\toks24
 \pgfutil@tempdima=\dimen169
 \pgfutil@tempdimb=\dimen170
 
@@ -276,7 +282,7 @@ y
 -common-lists.tex))
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
-\pgfutil@abb=\box98
+\pgfutil@abb=\box100
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
@@ -295,12 +301,12 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 filtered.code.tex
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks27
 ))
 \pgf@x=\dimen171
 \pgf@y=\dimen172
@@ -318,9 +324,9 @@ filtered.code.tex
 \c@pgf@countb=\count288
 \c@pgf@countc=\count289
 \c@pgf@countd=\count290
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
 \pgf@sys@id@count=\count291
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
@@ -379,10 +385,10 @@ code.tex)
 r.code.tex
 \pgfmath@dimen=\dimen181
 \pgfmath@count=\count294
-\pgfmath@box=\box99
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@box=\box101
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex
@@ -441,9 +447,9 @@ File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box100
-\pgf@hbox=\box101
-\pgf@layerbox@main=\box102
+\pgfpic=\box102
+\pgf@hbox=\box103
+\pgf@layerbox@main=\box104
 \pgf@picture@serial@count=\count296
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
@@ -489,7 +495,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box103
+\pgfexternal@startupbox=\box105
 ))
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
@@ -510,7 +516,7 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box104
+\pgfnodeparttextbox=\box106
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
@@ -543,8 +549,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 .tex)
 \pgffor@iter=\dimen264
 \pgffor@skip=\dimen265
-\pgffor@stack=\toks33
-\pgffor@toks=\toks34
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
 ))
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -564,10 +570,10 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen272
 \tikzleveldistance=\dimen273
 \tikzsiblingdistance=\dimen274
-\tikz@figbox=\box105
-\tikz@figbox@bg=\box106
-\tikz@tempbox=\box107
-\tikz@tempbox@bg=\box108
+\tikz@figbox=\box107
+\tikz@figbox@bg=\box108
+\tikz@tempbox=\box109
+\tikz@tempbox@bg=\box110
 \tikztreelevel=\count300
 \tikznumberofchildren=\count301
 \tikznumberofcurrentchild=\count302
@@ -590,9 +596,9 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 e.tex
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
 .code.tex
-\t@pgfplots@toka=\toks35
-\t@pgfplots@tokb=\toks36
-\t@pgfplots@tokc=\toks37
+\t@pgfplots@toka=\toks36
+\t@pgfplots@tokb=\toks37
+\t@pgfplots@tokc=\toks38
 \pgfplots@tmpa=\dimen275
 \c@pgfplots@coordindex=\count308
 \c@pgfplots@scanlineindex=\count309
@@ -620,7 +626,7 @@ e\pgfplotsmatrix.code.tex)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
 plotstableshared.code.tex
 \c@pgfplotstable@counta=\count311
-\t@pgfplotstable@a=\toks38
+\t@pgfplotstable@a=\toks39
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsdeque.code.tex)
@@ -673,7 +679,7 @@ decorations.code.tex
 \pgfdecorationsegmentamplitude=\dimen281
 \pgfdecorationsegmentlength=\dimen282
 )
-\tikz@lib@dec@box=\box109
+\tikz@lib@dec@box=\box111
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
@@ -711,12 +717,12 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen289
-\ar@mcellbox=\box110
+\ar@mcellbox=\box112
 \extrarowheight=\dimen290
-\NC@list=\toks39
+\NC@list=\toks40
 \extratabsurround=\skip56
 \backup@length=\skip57
-\ar@cellbox=\box111
+\ar@cellbox=\box113
 )
 \TX@col@width=\dimen291
 \TX@old@table=\dimen292
@@ -724,13 +730,48 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \TX@target=\dimen294
 \TX@delta=\dimen295
 \TX@cols=\count316
-\TX@ftn=\toks40
+\TX@ftn=\toks41
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.s
 ty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count317
 \cp@tempcnt=\count318
+) (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/lmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/lmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/bold-extra\bold-extra.s
 ty
@@ -749,34 +790,34 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip65
 \f@nch@O@orf=\skip66
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+0.
 
-(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count319
-\l__pdf_internal_box=\box112
+\l__pdf_internal_box=\box114
 ) (BEADANDO.aux)
 \openout1 = `BEADANDO.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -787,14 +828,14 @@ LaTeX Font Info:    ... okay on input line 59.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(51.21504pt, 511.86491pt, 51.21504pt)
-* v-part:(T,H,B)=(14.22636pt, 729.52858pt, 51.21504pt)
+* v-part:(T,H,B)=(8.5359pt, 729.52858pt, 56.9055pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=511.86491pt
 * \textheight=729.52858pt
 * \oddsidemargin=-21.05495pt
 * \evensidemargin=-21.05495pt
-* \topmargin=-95.04362pt
+* \topmargin=-100.73409pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -818,15 +859,15 @@ ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count320
 \scratchdimen=\dimen296
-\scratchbox=\box113
+\scratchbox=\box115
 \nofMPsegments=\count321
 \nofMParguments=\count322
-\everyMPshowfont=\toks41
+\everyMPshowfont=\toks42
 \MPscratchCnt=\count323
 \MPscratchDim=\dimen297
 \MPnumerator=\count324
 \makeMPintoPDFobject=\count325
-\everyMPtoPDFconversion=\toks42
+\everyMPtoPDFconversion=\toks43
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -842,67 +883,43 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 59.
+ on input line 60.
 
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-2.
-(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 63.
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-62.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 63.
 
-(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-62.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 63.
 
-(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 62.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 62.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 62.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 63.
 
-
-! LaTeX Error: Environment justifying undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 \begin{justifying}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 69.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 69.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 69.
-
-! LaTeX Error: \begin{list} on input line 67 ended by \end{justifying}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \end{justifying}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 79.
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
 
 [1
 
@@ -910,7 +927,7 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 ! Missing } inserted.
 <inserted text> 
                 }
-l.151 \end{align}
+l.128 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -919,7 +936,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} 
-l.151 \end{align}
+l.128 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -930,7 +947,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.151 \end{align}
+l.128 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -939,7 +956,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} 
-l.151 \end{align}
+l.128 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -950,7 +967,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.156 \end{align}
+l.133 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -959,7 +976,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} 
-l.156 \end{align}
+l.133 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -970,7 +987,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.156 \end{align}
+l.133 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -979,7 +996,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} 
-l.156 \end{align}
+l.133 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -991,7 +1008,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.271 \end{align}
+l.248 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1002,7 +1019,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.271 \end{align}
+l.248 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1011,19 +1028,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 323--326
+Underfull \hbox (badness 10000) in paragraph at lines 300--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--355
+Underfull \hbox (badness 10000) in paragraph at lines 328--332
 
  []
 
-<latex_figure_a.png, id=28, 268.00125pt x 186.6975pt>
+<latex_figure_a.png, id=23, 268.00125pt x 186.6975pt>
 File: latex_figure_a.png Graphic file (type png)
 <use latex_figure_a.png>
-Package pdftex.def Info: latex_figure_a.png  used on input line 370.
+Package pdftex.def Info: latex_figure_a.png  used on input line 347.
 (pdftex.def)             Requested size: 214.40128pt x 149.35818pt.
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
@@ -1037,7 +1054,7 @@ environment!.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.412 \end{multicols}
+l.389 \end{multicols}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1045,40 +1062,29 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[5] (BEADANDO.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+[5] (BEADANDO.aux) ) 
 Here is how much of TeX's memory you used:
- 24125 strings out of 475385
- 626905 string characters out of 2776906
- 1116766 words of memory out of 3000000
- 45099 multiletter control sequences out of 15000+600000
- 515912 words of font info for 55 fonts, out of 8000000 for 9000
+ 24274 strings out of 475385
+ 629112 string characters out of 2776906
+ 1119269 words of memory out of 3000000
+ 45223 multiletter control sequences out of 15000+600000
+ 512485 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,103p,784b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{D
-:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D
-:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D
-:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<D
-:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D
-:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D
-:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><D
-:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D
-:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><D:
-/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D:/
-Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/U
-sers/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><D:/Us
-ers/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><D:/User
-s/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Users/
-Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><D:/Users/Da
-nie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><D:/Users/Da
-nie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Users/Da
-nie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on BEADANDO.pdf (5 pages, 283372 bytes).
+ 99i,16n,103p,1856b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
+ps/base/8r.enc}<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmex10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Users/Danie/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Users/Danie/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on BEADANDO.pdf (5 pages, 128985 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
