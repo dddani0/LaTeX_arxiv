@@ -46,9 +46,8 @@
 \author[1]{Dmitry Yudin}
 \author[2, 3]{Anis Allagui}
 \affil[1]{\textit{Skolkovo Institute of Science and Technology, Moscow 121205, Russia}}
-\affil[2]{\textit{Department of Sustainable and Renewable Energy Engineering, University of Sharjah, Sharjah, P.O. Box 27272, United Arab Emirates}}
-\affil[3]{\textit{Department of Mechanical and Materials Engineering,
-Florida International University, Miami, FL33174, United States}\vspace{-1em}}
+\affil[2]{\textit{Department of Sustainable and Renewable Energy Engineering,\protect\\ University of Sharjah, Sharjah, P.O. Box 27272, United Arab Emirates}}
+\affil[3]{\textit{Department of Mechanical and Materials Engineering,\protect\\ Florida International University, Miami, FL33174, United States}\vspace{-1.5em}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %┌──┐ ┌───┐┌───┐┌┐  ┌┐
 %│┌┐│ │┌─┐│└┐┌┐││└┐┌┘│
@@ -65,7 +64,7 @@ Florida International University, Miami, FL33174, United States}\vspace{-1em}}
 % Skip first-page numbering
 \thispagestyle{empty}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{adjustwidth}{24pt}{24pt}
+\begin{adjustwidth}{18pt}{18pt}
 \begin{abstract}
 \vspace{-3.5em}
 We propose a circuit-level model combining the Marcus-Hush-Chidsey electron current equation and the Yakopcic equation for the state variable for describing resistive switching memory devices of the structure metal–ionic conductor–metal. We extend the dynamics of the state variable originally described by a first-order time derivative by introducing a fractional derivative with an arbitrary order between zero and one. We show that the extended model fits with great fidelity the current-voltage characteristic data obtained on a Si electrochemical metallization memory device with Ag-Cu alloy.
@@ -83,40 +82,23 @@ Substantial research efforts have been dedicated to the development of electrica
 \par
 While models at different size scales and thus with different degrees of physical details and computational complexity have been developed for memritors, including but not limited to ab initio, Kinetic Monte Carlo, and finite element method modells, in this work we focus on the circuit-level (compact) current-voltage behavior of the memristors. From this point of view, Memristors are generally described by the systems of coupled equations: 
 \begin{align}
-     i &= G(v,x)v, \\
-     \dot{x} &= f(x,v),
+     i &= G(v,x)v, \label{equa:1} \\
+     \dot{x} &= f(x,v), \label{equa:2}
 \end{align}
-where $i = i(t)$ is the current through the device, $v = v(t)$
-is the applied voltage, and $x = x(t)$ corresponds to a state
-variable or a group of state variables that quantify the
-internal dynamics of the device. These are, for example,
-width of doping region, concentration of vacancies in the gap region, and tunneling barrier width. State vairables can not be observed from external electrical behavior. Eq1. (1) follows the $i-v$ curve of the resistive device in the question with $G(v,x)$ being the generalized conductance, whereas Eq. describes the dynamics of the it's internal state x based on it's prehistory. The actual stat of a memristor can only be determined by solving Eqs. (1) and (2) self-consistently. Memristive systems as featured
-in terms of Eqs. (1) and (2) are known to possess a pinched hysteresis loop at the origin in the i-v plane in the response to any periodic voltage source. \par
-Being versatile and modular enough it is the Yakopcic model 27–29 which is most often used to simulate
-the nonlinear i-v characteristic of wide range of memristors in response to sinusoidal and repetitive sweeping
-inputs. The model takes into account electron transmission effects, voltage threshold for state variable motion,
-and nonlinear velocity function for oxygen vacancies or
-dopant drift, considered to be the most relevant internal
-state information29. It follows on the steps of Strukov et
-al. work30, and describes the memristor as two resistors
-in series characterized by electron transmission equations
-so that:
+where $i = i(t)$ is the current through the device, $v = v(t)$ is the applied voltage, and $x = x(t)$ corresponds to a state variable or a group of state variables that quantify the internal dynamics of the device. These are, for example, width of doping 
+ region, concentration of vacancies in the gap region, and tunneling barrier width. State vairables can not be observed from external electrical behavior. Eq. (\ref{equa:1}) follows the $i-v$ curve of the resistive device in the question with $G(v,x)$ being the generalized conductance, whereas Eq. (\ref{equa:2}) describes the dynamics of the it's internal state x based on it's prehistory. The actual stat of a memristor can only be determined by solving Eqs. (\ref{equa:1}) and (\ref{equa:2}) self- consistently. Memristive systems as featured in terms of Eqs. (\ref{equa:1}) and (\ref{equa:2}) are known to possess a pinched hysteresis loop at the origin in the $i-v$ plane in the response to any periodic voltage source. \par
+Being versatile and modular enough it is the Yakopcic model which is most often used to simulate the nonlinear $i-v$ characteristic of wide range of memristors in response to sinusoidal and repetitive sweeping inputs. The model takes into account electron transmission effects, voltage threshold for state variable motion,
+and nonlinear velocity function for oxygen vacancies or dopant drift, considered to be the most relevant internal state information. It follows on the steps of Strukov et al. work, and describes the memristor as two resistors in series characterized by electron transmission equations so that:
 \begin{align}
-     i(t) = h_1 (v)x + h_2 (v)(1-x) .
+     i(t) = h_1 (v)x + h_2 (v)(1-x). \label{equa:3}
 \end{align}
-Here, h1 is used to model the behavior in the low resistance state of the device, and h2 captures its behavior in the high-resistance state.
+Here, $h_1$ is used to model the behavior in the low resistance state of the device, and $h_2$ captures its behavior in the high-resistance state.
 The two electron transmission equations are weighted and mixed by the state
-variable x which is set to take values between zero and
-one25. In memristive devices, it is the rate of change of
-the state variable x that is explicitly determined (2), and
-is given in the Yakopcic memristor model by the product
-of the two composite functions g(v) and f(x) such that29:
+variable x which is set to take values between zero and one. In memristive devices, it is the rate of change of the state variable x that is explicitly determined (\ref{equa:2}), and is given in the Yakopcic memristor model by the product of the two composite functions $g(v)$ and f$(x)$ such that:
 \begin{align}
      \dot{x} = g(v)f(x).
 \end{align}
-An exponential dependency of the state change to the
-positive and negative regions of the input voltage v is
-modelled in terms of
+An exponential dependency of the state change to the positive and negative regions of the input voltage $v$ is modelled in terms of
 \begin{align}{}
      g(v) = \begin{cases} a_p \cdot (1-e^{U_p -v}) \cdot e^v, &u-u_p > 0, \\ a_n \cdot (e^{u_n +v}-1)\cdot e^{-v}, &u+u_n < 0, \\
      \centering 0, &\text{otherwise}\end{cases}

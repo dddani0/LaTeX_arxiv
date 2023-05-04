@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  5 MAY 2023 00:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  5 MAY 2023 01:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -837,8 +837,8 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip65
 \f@nch@O@orf=\skip66
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+9.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -846,20 +846,20 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (BEADANDO.aux)
 \openout1 = `BEADANDO.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -925,43 +925,64 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 60.
+ on input line 59.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 63.
+ 62.
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 63.
+ 62.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 63.
+ 62.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 63.
+ 62.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
+
+
+LaTeX Warning: Reference `equa:1' on page 1 undefined on input line 89.
+
+
+LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 89.
+
+
+LaTeX Warning: Reference `equa:1' on page 1 undefined on input line 89.
+
+
+LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 89.
+
+
+LaTeX Warning: Reference `equa:1' on page 1 undefined on input line 89.
+
+
+LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 89.
+
+
+LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 97.
 
 [1
 
@@ -969,7 +990,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 ! Missing } inserted.
 <inserted text> 
                 }
-l.131 \end{align}
+l.113 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -978,7 +999,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} 
-l.131 \end{align}
+l.113 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -989,7 +1010,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.131 \end{align}
+l.113 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -998,7 +1019,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} 
-l.131 \end{align}
+l.113 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1009,7 +1030,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.136 \end{align}
+l.118 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1018,7 +1039,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} 
-l.136 \end{align}
+l.118 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1029,7 +1050,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.136 \end{align}
+l.118 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1038,7 +1059,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} 
-l.136 \end{align}
+l.118 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1050,7 +1071,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.251 \end{align}
+l.233 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1061,7 +1082,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.251 \end{align}
+l.233 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1070,19 +1091,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
+Underfull \hbox (badness 10000) in paragraph at lines 285--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--335
+Underfull \hbox (badness 10000) in paragraph at lines 313--317
 
  []
 
 <latex_figure_a.png, id=23, 268.00125pt x 186.6975pt>
 File: latex_figure_a.png Graphic file (type png)
 <use latex_figure_a.png>
-Package pdftex.def Info: latex_figure_a.png  used on input line 350.
+Package pdftex.def Info: latex_figure_a.png  used on input line 332.
 (pdftex.def)             Requested size: 214.40128pt x 149.35818pt.
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
@@ -1096,7 +1117,7 @@ environment!.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.392 \end{multicols}
+l.374 \end{multicols}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1104,27 +1125,34 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[5] (BEADANDO.aux) ) 
+[5] (BEADANDO.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 24944 strings out of 475385
- 644615 string characters out of 2776906
- 1220632 words of memory out of 3000000
- 45868 multiletter control sequences out of 15000+600000
+ 24947 strings out of 475385
+ 644639 string characters out of 2776906
+ 1221633 words of memory out of 3000000
+ 45871 multiletter control sequences out of 15000+600000
  512485 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,103p,1856b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
-ps/base/8r.enc}<D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmex10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Users/Danie/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Users/Danie/AppData/Local
-/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/
-Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on BEADANDO.pdf (5 pages, 129686 bytes).
+{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<D:
+/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fo
+nts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on BEADANDO.pdf (5 pages, 130510 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
