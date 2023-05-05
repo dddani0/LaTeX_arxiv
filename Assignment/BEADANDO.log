@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  5 MAY 2023 01:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  5 MAY 2023 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -963,34 +963,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
 
-
-LaTeX Warning: Reference `equa:1' on page 1 undefined on input line 89.
-
-
-LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 89.
-
-
-LaTeX Warning: Reference `equa:1' on page 1 undefined on input line 89.
-
-
-LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 89.
-
-
-LaTeX Warning: Reference `equa:1' on page 1 undefined on input line 89.
-
-
-LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 89.
-
-
-LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 97.
-
 [1
 
 {C:/Users/Danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.113 \end{align}
+l.108 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -998,8 +977,8 @@ Try to go on, since this might almost work.
 
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
-                                                  \end {cases} 
-l.113 \end{align}
+                                                  \end {cases} \label {equa:6} 
+l.108 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1010,7 +989,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.113 \end{align}
+l.108 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1018,7 +997,27 @@ Try to go on, since this might almost work.
 
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
-                                                  \end {cases} 
+                                                  \end {cases} \label {equa:6} 
+l.108 \end{align}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.113 \end{align}
+                 
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
+                                                  \end {cases} \label {equa:7} 
 l.113 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
@@ -1030,7 +1029,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.118 \end{align}
+l.113 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1038,8 +1037,8 @@ Try to go on, since this might almost work.
 
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
-                                                  \end {cases} 
-l.118 \end{align}
+                                                  \end {cases} \label {equa:7} 
+l.113 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1047,31 +1046,47 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.118 \end{align}
-                 
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
+
+LaTeX Warning: Reference `equa:6' on page 2 undefined on input line 114.
+
+
+LaTeX Warning: Reference `equa:7' on page 2 undefined on input line 114.
 
 ! Extra }, or forgotten $.
-<argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
-                                                  \end {cases} 
-l.118 \end{align}
-                 
+l.133 ...rgy scaled to $\text{k}_\text{B}\text{T}}
+                                                  $, while the integral over...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Reference `equa:10' on page 2 undefined on input line 134.
+
+
+LaTeX Warning: Reference `equa:8' on page 2 undefined on input line 136.
+
+
+LaTeX Warning: Reference `equa:10' on page 2 undefined on input line 136.
 
 [2]
+
+LaTeX Warning: Reference `equa:4' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Reference `equa:10' on page 3 undefined on input line 156.
+
+
+LaTeX Warning: Reference `equa:14' on page 3 undefined on input line 164.
+
+
+LaTeX Warning: Reference `equa:10' on page 3 undefined on input line 168.
+
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.233 \end{align}
+l.171 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1082,28 +1097,43 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.233 \end{align}
+l.171 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `equa:11' on page 3 undefined on input line 175.
+
+
+LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 183.
+
+
+LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 184.
+
+
+LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 192.
+
+
+LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 192.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 285--288
+Underfull \hbox (badness 10000) in paragraph at lines 210--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--317
+Underfull \hbox (badness 10000) in paragraph at lines 238--242
 
  []
 
 <latex_figure_a.png, id=23, 268.00125pt x 186.6975pt>
 File: latex_figure_a.png Graphic file (type png)
 <use latex_figure_a.png>
-Package pdftex.def Info: latex_figure_a.png  used on input line 332.
+Package pdftex.def Info: latex_figure_a.png  used on input line 257.
 (pdftex.def)             Requested size: 214.40128pt x 149.35818pt.
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
@@ -1117,7 +1147,7 @@ environment!.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.374 \end{multicols}
+l.299 \end{multicols}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1134,13 +1164,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 24947 strings out of 475385
- 644639 string characters out of 2776906
- 1221633 words of memory out of 3000000
- 45871 multiletter control sequences out of 15000+600000
- 512485 words of font info for 105 fonts, out of 8000000 for 9000
+ 24962 strings out of 475385
+ 644774 string characters out of 2776906
+ 1221634 words of memory out of 3000000
+ 45888 multiletter control sequences out of 15000+600000
+ 510329 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,103p,1856b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,16n,103p,2499b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<D:
 /Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1152,7 +1182,7 @@ nts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on BEADANDO.pdf (5 pages, 130510 bytes).
+Output written on BEADANDO.pdf (5 pages, 131301 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

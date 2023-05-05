@@ -32,7 +32,7 @@
 \fancyhf{} % removes numbering from the bottom of the page
 \fancyhead[R]{\thepage}
 % Roman numerals for numbering
-\renewcommand{\thesection}{\sc{\Roman{section}}.} % Use roman numerals instead
+\renewcommand{\thesection}{\sc \bfseries {\Roman{section}}.} % Use roman numerals instead
 \renewcommand\thesubsection{\Alph{subsection}} % use A,B,C ...
 \renewcommand{\abstractname}{} % clear the title for abstract
 \makeatletter
@@ -77,7 +77,7 @@ We propose a circuit-level model combining the Marcus-Hush-Chidsey electron curr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{multicols}{2}
 {\centering % Only center the section title
-\section{\sc{introduction}}}
+\section{\sc{\bfseries introduction}}}
 Substantial research efforts have been dedicated to the development of electrically-controlled resistive switching in metal-insulator-metal (MIM) devices or memristors, going from new materials discovery to modelling and simulation, and design and applications. With both memory and logic capabilities combined at the hardware level, in addition to long retention times and high switching rates at relatively low energy consumption, these devices are favorably seen as the next-generation building blocks for nonvolatile memories and neuromorphic computing applications. In a typical memristor, the resistive switching is based on the electrically-stimulated change of cell resistance usually driven by internal ion redistribution, which actually depends not only on the applied excitation but also on the past history of the excitation. Physical mechanisms associated with these reversible transitions have been attributed to different effects including valencechange, electrochemical metallization, and phase change effects. They can be either abrupt (binary) or gradual (analogue), and evolve at different timescales, leading to rich and complex device behaviors in this seemingly simple device structure of just three layers. Furthermore, with the wide range of diversity in memristors materials and their morphologies, operating mechanisms, and manufacturing technologies there is an urgent need for the development of a general model capable of capturing accurately and effectively their complex nonlinear dynamics. This is crucial not only for the characterization and comparison between different memristor devices, but also for the investigation of larger scale memristorbased circuits and hybrid hardware architectures, and also to explore similar behaviors observed for instance in biological synapse systems.
 \par
 While models at different size scales and thus with different degrees of physical details and computational complexity have been developed for memritors, including but not limited to ab initio, Kinetic Monte Carlo, and finite element method modells, in this work we focus on the circuit-level (compact) current-voltage behavior of the memristors. From this point of view, Memristors are generally described by the systems of coupled equations: 
@@ -92,179 +92,104 @@ and nonlinear velocity function for oxygen vacancies or dopant drift, considered
 \begin{align}
      i(t) = h_1 (v)x + h_2 (v)(1-x). \label{equa:3}
 \end{align}
-Here, $h_1$ is used to model the behavior in the low resistance state of the device, and $h_2$ captures its behavior in the high-resistance state.
-The two electron transmission equations are weighted and mixed by the state
-variable x which is set to take values between zero and one. In memristive devices, it is the rate of change of the state variable x that is explicitly determined (\ref{equa:2}), and is given in the Yakopcic memristor model by the product of the two composite functions $g(v)$ and f$(x)$ such that:
+Here, $h_1$ is used to model the behavior in the low resistance state of the device, and $h_2$ captures its behavior in the high-resistance state. The two electron transmission equations are weighted and mixed by the state variable x which is set to take values between zero and one. In memristive devices, it is the rate of change of the state variable x that is explicitly determined (\ref{equa:2}), and is given in the Yakopcic memristor model by the product of the two composite functions $g(v)$ and f$(x)$ such that:
 \begin{align}
-     \dot{x} = g(v)f(x).
+     \dot{x} = g(v)f(x). \label{equa:4}
 \end{align}
 An exponential dependency of the state change to the positive and negative regions of the input voltage $v$ is modelled in terms of
-\begin{align}{}
+\begin{align}
      g(v) = \begin{cases} a_p \cdot (1-e^{U_p -v}) \cdot e^v, &u-u_p > 0, \\ a_n \cdot (e^{u_n +v}-1)\cdot e^{-v}, &u+u_n < 0, \\
-     \centering 0, &\text{otherwise}\end{cases}
+     0, &\text{otherwise}\end{cases} \label{equa:5}
 \end{align}
-including programming voltage thresholds up and un.
-The magnitude of state change for a voltage potential
-is defined with ap and an. The second function f(x) is
-determined by
+including programming voltage thresholds $u_p$ and $u_n$. The magnitude of state change for a voltage potential is defined with $a_p$ and $a_n$. The second function $f(x)$ is determined by
 \begin{align}
     f(x) = \begin{cases} w_p (x, x_p) \cdot e^{-(x-x_p), &x \ge x_p, \\
-    1 &x < x_p,}\end{cases}
+    1 &x < x_p,}\end{cases} \label{equa:6}
 \end{align}
 for $v > 0$, while $v < 0$, it is defined as
 \begin{align}
     f(x) = \begin{cases} w_n (x, x_n) \cdot e^{x+x_n-1), &x \le x_n, \\
-    1 &x > x_n,}\end{cases}
+    1 &x > x_n,}\end{cases} \label{equa:7}
 \end{align}
-Effectively, this function introduces the nonlinear ion motion, as it becomes harder to change the state of the
-devices when the state variable approaches the boundaries. In Eq. (6), $w_p(x, x_p)$ is a windowing function that
-ensures $f(x)$ equals zero when $x(t) = 1$, and in (7),
-$w_n(x, x_n)$ keeps $x(t)$ from becoming less than 0 when
-the current flow is reversed. These two functions can explicitly be written as $w_p(x, x_p) = 1 + (x_p - x)/( 1 - x_p)$
-and $w_n(x, x_n) = x/(1 - x_n)$. \par
-Clearly, in (3), the functions h1 and h2 are dependent on the structure and type of memristor under study.
-Several types of resistive switching memory devices can
-be classified as nanoionic-based electrochemical systems,
-wherein an ion conductor in the form of electron insulator layer is placed between two electrodes31,32. For the
-case of cation-migration-based electrochemical metallization memory cells, Ag or Cu are typically used as active
-electrodes, Pt or W as counter electrodes, and a variety
-of oxides or chalcogenides thin films as solid electrolytes.
-When a positive voltage is applied, the active electrode
-material is oxidized at the electrode–electrolyte interface
-leading to the release of metallic ions in the adjacent electrolyte, followed by drift and diffusion of these ions across
-the electrolyte, and then their deposition in filamentarylike metal structures at the counter electrode surface.
-Short-circuit occurs when the filament has grown sufficiently far to make an electronic contact with the opposite electrode, which defines the low-resistance state of
-the cell. When a negative voltage is applied, the cell returns back, in principle reversibly, to the high-resistance state31. Anion-migration-based valence change cells, on
-the other hand, are formed by placing a metal oxide
-between for example Pt or TiN electrodes and another
-oxygen-affine, lower work function electrode. The lowresistance and high-resistance states are defined based on
-the electrochemical formation of oxygen-deficient, mixed
-ionic–electronic conducting filaments, and the nanoionic
-modification of the potential barrier between the tip of
-the filament and the electrode it faces31. For these types
-of redox-based resistive memory cells, it is more appropriate to consider electron transfer theory associated with
-the kinetics of redox reactions to better describe their i-v
-characteristics. Furthermore, because the formation and
-rupture of the metallic filaments follow random paths,
-the possibility of charge trapping from one operation sequence to another, charge leakage, the dynamics of an
-internal state variable associated with these cells cannot
-be defined solely based on its immediate past, in other
-words via integer-order derivative as in (2). Taking into
-account the integral past is believed to be more representative for a proper mathematical description of the
-complexity and dissipative nature of these cells.
-\par 
-Motivated by these observations, we herein propose
-a circuit-level model for redox-based resistive memory
-devices, where the current equation (1) is taken from
-the Marcus-Hush-Chidsey (MHC) theory33–35 of heterogeneous electron transfer, while the state variable equation (2) is taken from the Yakopcic generalized memristive model27. We consider the dynamics of the state variable with respect to time to be of fractional, non-integer,
-order. Mathematically, this adds an extra degree of freedom to the model that can be generically correlated to
-the non-perfect reversibility of the device when looking
-at it from one cycle to another. We fit the extended
-model to the experimental data obtained on a Si memristor with Ag-Cu alloy as reported in36. A close inspection
-of numerical results unambiguously reveals that switching to the fractional derivative allows one to significantly
-improve the agreement between the theory and experimental data.
+Effectively, this function introduces the nonlinear ion motion, as it becomes harder to change the state of the devices when the state variable approaches the boundaries. In Eq. (\ref{equa:6}), $w_p(x, x_p)$ is a windowing function that ensures $f(x)$ equals zero when $x(t) = 1$, and in (\ref{equa:7}), $w_n(x, x_n)$ keeps $x(t)$ from becoming less than $0$ when the current flow is reversed. These two functions can explicitly be written as $w_p(x, x_p) = 1 + (x_p - x)/( 1 - x_p)$ and $w_n(x, x_n) = x/(1 - x_n)$. \par
+Clearly, in (\ref{equa:3}), the functions $h_1$ and $h_2$ are dependent on the structure and type of memristor under study. Several types of resistive switching memory devices can be classified as nanoionic-based electrochemical systems, where in an ion conductor in the form of electron insulator layer is placed between two electrodes. For the case of cation-migration-based electrochemical metallization memory cells, Ag or Cu are typically used as active electrodes, Pt or W as counter electrodes, and a variety of oxides or chalcogenides thin films as solid electrolytes. When a positive voltage is applied, the active electrode material is oxidized at the electrode–electrolyte interface leading to the release of metallic ions in the adjacent electrolyte, followed by drift and diffusion of these ions across the electrolyte, and then their deposition in filamentary like metal structures at the counter electrode surface. Short-circuit occurs when the filament has grown sufficiently far to make an electronic contact with the opposite electrode, which defines the low-resistance state of the cell. When a negative voltage is applied, the cell returns back, in principle reversibly, to the high-resistance state. Anion-migration-based valence change cells, on the other hand, are formed by placing a metal oxide between for example Pt or TiN electrodes and another oxygen-affine, lower work function electrode. The lowresistance and high-resistance states are defined based on the electrochemical formation of oxygen-deficient, mixed ionic–electronic conducting filaments, and the nanoionic modification of the potential barrier between the tip of the filament and the electrode it faces. For these types of redox-based resistive memory cells, it is more appropriate to consider electron transfer theory associated with the kinetics of redox reactions to better describe their $i-v$ characteristics. Furthermore, because the formation and rupture of the metallic filaments follow random paths, the possibility of charge trapping from one operation sequence to another, charge leakage, the dynamics of an internal state variable associated with these cells cannot be defined solely based on its immediate past, in other words via integer-order derivative as in (\ref{equa:2}). Taking into account the integral past is believed to be more representative for a proper mathematical description of the complexity and dissipative nature of these cells. \par
+Motivated by these observations, we herein propose a circuit-level model for redox-based resistive memory devices, where the current equation (\ref{equa:1}) is taken from the Marcus-Hush-Chidsey (MHC) theory of heterogeneous electron transfer, while the state variable equation (\ref{equa:2}) is taken from the Yakopcic generalized  emristive model. We consider the dynamics of the state variable with respect to time to be of fractional, non-integer, order. Mathematically, this adds an extra degree of freedom to the model that can be generically correlated to the non-perfect reversibility of the device when looking at it from one cycle to another. We fit the extended model to the experimental data obtained on a Si memristor with Ag-Cu alloy as reported in. A close inspection of numerical results unambiguously reveals that switching to the fractional derivative allows one to significantly improve the agreement between the theory and experimental data.
+\par
 {\centering % Only center the section title
-\section{\scshape Memristor model}
+\section{\sc \bfseries memristor model}
 }
-The generalized i-v relationship, as specified by Eq. (1), for the proposed memristor model reads
+The generalized $i-v$ relationship, as specified by Eq. (\ref{equa:1}), for the proposed memristor model reads
 \begin{align}
-    i = \gamma _1 x h(\delta _1 v) + \gamma _2(1 - x) h (\delta _2 v),
+    i = \gamma _1 x h(\delta _1 v) + \gamma _2(1 - x) h (\delta _2 v), \label{equa:8}
 \end{align}
 where $\delta _1, \delta _2, \gamma _1, \gamma _2 > 0$ are model parameters, and the function
 \begin{align}{}
-    h (v) = h_+ (v) - h_- (v),
+    h (v) = h_+ (v) - h_- (v), \label{equa:9}
 \end{align}
 is based on the MHC model for electron transfer described by the Gauss-Fermi integral,
 \begin{align}
-    h_\pm (v) = \beta \int_{-\infty}^\infty = \exp{\biggl\{ -\frac{(z - \lambda \pm v)^2}{4 \lambda} \biggr\} } \frac{\,dz}{1+e^z}.
+    h_\pm (v) = \beta \int_{-\infty}^\infty = \exp{\biggl\{ -\frac{(z - \lambda \pm v)^2}{4 \lambda} \biggr\} } \frac{\,dz}{1+e^z}. \label{equa:10}
 \end{align}
-Here, the $\pm$ signs refer to the oxidative and reductive
-transition rate functions, $\lambda$ is the dimensionless reorganization energy scaled to kBT, while the integral over the
-dimensionless variable z accounts for the Fermi statistics of electron energies, distributed around the electrode
-potential. The prefactor $\beta$ accounts for the electronic
-coupling strength and the electronic density of states of
-the electrode. In Eq. (10), $\lambda$ and $\beta$ are assumed to be
-fitting parameters, knowing that $\beta$ is usually expressed
-as an exponential term itself that depends on the distance between the donor and acceptor of electrons. This,
-however, does not affect the generality of the proposed
-model. Finally, v in Eqs. (8)–(10) is actually the electrochemical overpotential defined as the difference between
-the equilibrium Nernst-potential of the metal and the
-actual electrode potential defined by the external power
-supply. We will consider the equilibrium potential to be
-negligible, so that the electrochemical potential is equal
-to the applied voltage on the device \par
-For the dynamics of the state variable $x(t)$, we introduce a fractional time derivative in (4) as follows
+Here, the $\pm$ signs refer to the oxidative and reductive transition rate functions, $\lambda$ is the dimensionless reorganization energy scaled to $\text{k}_\text{B}\text{T}}$, while the integral over the dimensionless variable $z$ accounts for the Fermi statistics of electron energies, distributed around the electrode
+potential. The prefactor $\beta$ accounts for the electronic coupling strength and the electronic density of states of the electrode. In Eq. (\ref{equa:10}), $\lambda$ and $\beta$ are assumed to be fitting parameters, knowing that $\beta$ is usually expressed
+as an exponential term itself that depends on the distance between the donor and acceptor of electrons. This, however, does not affect the generality of the proposed
+model. Finally, v in Eqs. (\ref{equa:8})–(\ref{equa:10}) is actually the electrochemical overpotential defined as the difference between the equilibrium Nernst-potential of the metal and the actual electrode potential defined by the external power supply. We will consider the equilibrium potential to be negligible, so that the electrochemical potential is equal to the applied voltage on the device \par
+For the dynamics of the state variable $x(t)$, we introduce a fractional time derivative in (\ref{equa:4}) as follows
 \begin{align}
-    D_t^\alpha = g(v)f(x), ~~~x(0) = x_0,
+    D_t^\alpha = g(v)f(x), ~~~x(0) = x_0, \label{equa:11}
 \end{align}
-where $ D_t^\alpha$ is the fractional derivative operator of order
-$\alpha > 0$ in the sense of Caputo
+where $ D_t^\alpha$ is the fractional derivative operator of order $\alpha > 0$ in the sense of Caputo
 \begin{align}
-    D_t^\alpha x(t) = \frac{1}{\Gamma (n-\alpha)} \int_0^t \frac{x^{(n)} (\tau)d \tau}{(t - \tau)^{\alpha+1-n}},
+    D_t^\alpha x(t) = \frac{1}{\Gamma (n-\alpha)} \int_0^t \frac{x^{(n)} (\tau)d \tau}{(t - \tau)^{\alpha+1-n}}, \label{equa:12}
 \end{align}
 where $n-1<\alpha<n$, while $\Gamma (z)= \int_0^\infty t^{z-1} e^{-t} \,dt$ in the denominator stands for the Gamma function, and $x^{(n)} (\tau)$ is the n-th order derivative. In our follow-up study, the order of the derivative is assumed to be $0 < \alpha < 1$. \par
 Thus the parameters
 \begin{align}
-    p = (\alpha, x_p, x_n, a_p, a_n, u_p, u_n, \beta, \lambda, \gamma _1, \gamma _2, \delta_1, \delta_2).
+    p = (\alpha, x_p, x_n, a_p, a_n, u_p, u_n, \beta, \lambda, \gamma _1, \gamma _2, \delta_1, \delta_2). \label{equa:13}
 \end{align}
 being arranged into one vector specify the proposed memristor model.
+\par
 {\centering % Only center the section title
 \section{\scshape methods}
 }
 {\centering \subsection{Evaluation of the MHC integral}}
-The Gauss-Fermi integrals like (10) can be evaluated
-numerically using the Gauss-Hermite quadrature (see,
-e.g.,37). In practice
+The Gauss-Fermi integrals like (\ref{equa:10}) can be evaluated numerically using the Gauss-Hermite quadrature (see,e.g.,). In practice
 \begin{align}
-    \int_{- \infty}^\infty e^{-x^2} f(x) \,dx \approx \sum_{k=1}^n c_k f(x_k),
+    \int_{- \infty}^\infty e^{-x^2} f(x) \,dx \approx \sum_{k=1}^n c_k f(x_k), \label{equa:14}
 \end{align}
-where $n$ corresponds to the amount of sample points, while $x_k$ are the roots of the Chebyshev-Hermite polynomial $H_n (x_k) = 0$ with $k=1,...,n$. For a given $n \ge 2$ the Chebyshev-Hermite polynomial $H_n (x)$ can be identified
-from recurrence relations
+where $n$ corresponds to the amount of sample points, while $x_k$ are the roots of the Chebyshev-Hermite polynomial $H_n (x_k) = 0$ with $k=1,...,n$. For a given $n \ge 2$ the Chebyshev-Hermite polynomial $H_n (x)$ can be identified from recurrence relations
 \begin{align}
-    H_{n+1}(x) = 2xH_n(x) - 2nH_{n-1}(x),
+    H_{n+1}(x) = 2xH_n(x) - 2nH_{n-1}(x), \label{equa:15}
 \end{align}
-provided $H_0(x)=1$ and $H_1(x) = 2x$. In (14), the coefficients $c_k$ are given by
+provided $H_0(x)=1$ and $H_1(x) = 2x$. In (\ref{equa:14}), the coefficients $c_k$ are given by
 \begin{align}
-    c_k = \frac{2^{n-1}}{n^2} \frac{n!}{|H_{n-1 (x_k)}|^2} \sqrt{\pi},
+    c_k = \frac{2^{n-1}}{n^2} \frac{n!}{|H_{n-1 (x_k)}|^2} \sqrt{\pi}, \label{equa:16}
 \end{align}
-Thus, one can rewrite the MHC integrals (10) in the form
+Thus, one can rewrite the MHC integrals (\ref{equa:10}) in the form
 \begin{align}
-    h_{\pm}(v)=2 \beta \sqrt{\lambda} \sum_{k=1}^n \frac{c_k}{1+\exp{\{2x_k \sqrt{\lambda} + \lamda \pm v\}}}.
+    h_{\pm}(v)=2 \beta \sqrt{\lambda} \sum_{k=1}^n \frac{c_k}{1+\exp{\{2x_k \sqrt{\lambda} + \lamda \pm v\}}}. \label{equa:17}
 \end{align}
-In our numerical simulations, the order of quadrature
-$n = 25$, which is deemed more than sufficient for our purpose.
+In our numerical simulations, the order of quadrature $n = 25$, which is deemed more than sufficient for our purpose.
+\par
 {\centering \subsection{Solution to the fractional differential equation}}
-The nonlinear fractional differential equation (11)
-is solved numerically using the Adams-type predictor corrector method38. For nonlinear fractional differential equations of the form
+The nonlinear fractional differential equation (\ref{equa:11}) is solved numerically using the Adams-type predictor corrector method. For nonlinear fractional differential equations of the form
 \begin{align}
-    D_t^\alpha x(t) = F(t,x), ~~~ x^{(k)}(0) = x_0^{(k)},
+    D_t^\alpha x(t) = F(t,x), ~~~ x^{(k)}(0) = x_0^{(k)}, \label{equa:18}
 \end{align}
-where $k = 0, 1, . . . , m - 1$ and $m = [\alpha]$, this method can
-be described as follows. The approach is based on the
-fact that the initial value problem is equivalent to the
-Volterra integral equation
+where $k = 0, 1, . . . , m - 1$ and $m = [\alpha]$, this method can be described as follows. The approach is based on the fact that the initial value problem is equivalent to the Volterra integral equation
 \begin{align}
-    x(t) = \sum_{k=0}^{m-1} \frac{t^k x_0^{(k)}}{k!} + \frac{1}{\Gamma (\alpha)} \int_0^t \frac{F(\tau , x(\tau))}{(t- \tau)^{1-\alpha}}
+    x(t) = \sum_{k=0}^{m-1} \frac{t^k x_0^{(k)}}{k!} + \frac{1}{\Gamma (\alpha)} \int_0^t \frac{F(\tau , x(\tau))}{(t- \tau)^{1-\alpha}} \label{equa:19}
 \end{align}
-We assume that the choice of $F(t, x)$ guarantees the existence of a unique solution in a certain interval $0 \le t \le T$.
-We divide this interval into $N$ equal pieces as specified
-by a uniform grid at the points $t_n = hn, n = 0, 1, . . . , N$
-and $h = T / N$. The basic idea is that using pre-calculated
-approximations $x_h(t_j ) \approx x(t_j ), j = 0, 1, . . . , n$, we get
-the next time step approximation $x_h(t_{n+1})$ by means of
-Eq. (19). \par
-Replacing the integral on the right-hand side of
-Eq. (19) by the product rectangle rule, we obtain
+We assume that the choice of $F(t, x)$ guarantees the existence of a unique solution in a certain interval $0 \le t \le T$. We divide this interval into $N$ equal pieces as specified by a uniform grid at the points $t_n = hn, n = 0, 1, . . . , N$ and $h = T / N$. The basic idea is that using pre-calculated approximations $x_h(t_j ) \approx x(t_j ), j = 0, 1, . . . , n$, we get the next time step approximation $x_h(t_{n+1})$ by means of Eq. (\ref{equa:19}). \par
+Replacing the integral on the right-hand side of Eq. (\ref{equa:19}) by the product rectangle rule, we obtain
 \begin{align}
-    \int_0^{t_{n+1}} \frac{F(\tau , x(\tau))}{(t_{n+1}-\tau)^{1-\alpha}}d\tau \approx \frac{h^\alpha}{\alpha} \sum_{j=0}^n F_j \cdot b_{n-j},
+    \int_0^{t_{n+1}} \frac{F(\tau , x(\tau))}{(t_{n+1}-\tau)^{1-\alpha}}d\tau \approx \frac{h^\alpha}{\alpha} \sum_{j=0}^n F_j \cdot b_{n-j}, \label{equa:20}
 \end{align}
-where $F_j = F(t_j , x_h(t_j))$ and $b_k = (k + 1)^\alpha - k^\alpha$
-, provided that $0 \le k \le n$. The predicted value $x^P (t_{n+1})$ is
-determined by the fractional Adams-Bashforth method,
+where $F_j = F(t_j , x_h(t_j))$ and $b_k = (k + 1)^\alpha - k^\alpha$ , provided that $0 \le k \le n$. The predicted value $x^P (t_{n+1})$ is determined by the fractional Adams-Bashforth method,
 \begin{align}
-   x_h^p (t_{n+1}) = \sum_{k=0}^{m-1} \frac{t_{n+1}^k x_0^{(k)}}{k!} + \frac{h^\alpha}{\Gamma (\alpha + 1)} \sum_{j=0}^n F_j \cdot b_{n-j}.
+   x_h^p (t_{n+1}) = \sum_{k=0}^{m-1} \frac{t_{n+1}^k x_0^{(k)}}{k!} + \frac{h^\alpha}{\Gamma (\alpha + 1)} \sum_{j=0}^n F_j \cdot b_{n-j}. \label{equa:1}
 \end{align}
-To obtain a formula for the corrector, one uses the product trapezoidal quadrature formula to replace the integral in Eq. (19), where nodes $t_j$ are taken with respect to the weight function $(t_{n+1} - \tau)^{\alpha - 1}$. Using standard techniques from quadrature theory, we can write the integral on the right-hand side of Eq. (19) as
+To obtain a formula for the corrector, one uses the product trapezoidal quadrature formula to replace the integral in Eq. (\ref{equa:19}), where nodes $t_j$ are taken with respect to the weight function $(t_{n+1} - \tau)^{\alpha - 1}$. Using standard techniques from quadrature theory, we can write the integral on the right-hand side of Eq. (\ref{equa:19}) as
 \begin{align}
    \int_0^{t_{n+1}} \frac{F(\tau,x(\tau))}{(t_{n+1}-\tau)^{1-\alpha}}\,d\tau \approx \frac{h^\alpha}{\alpha(\alpha + 1)} \sum_{j=0}^{n+1} F_j \cdot a_{n-j},
 \end{align}
