@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  7 MAY 2023 23:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  7 MAY 2023 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1250,9 +1250,6 @@ Package multicol Warning: Floats and marginpars not allowed inside `multicols'
 environment!.
 
 [4] [5] (BEADANDO.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `BEADANDO.out' has not changed.
 (rerunfilecheck)             Checksum: BD2EB16E301DC9376A11A8B02AF08AF4;1239.
  ) 
@@ -1275,7 +1272,7 @@ nts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on BEADANDO.pdf (5 pages, 147979 bytes).
+Output written on BEADANDO.pdf (5 pages, 148068 bytes).
 PDF statistics:
  196 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
