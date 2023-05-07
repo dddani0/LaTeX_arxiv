@@ -208,7 +208,7 @@
         {\centering \subsection{ \bfseries Fitting method}}
         Suppose the $i-v$ curve is yielded by $N$ measurements $\{\hat{t}_k, \hat{v}_k, \hat{i}_k\}_{k=1}^N$. To fit the model as specified by Eqs. (\ref{equa:7}) and (\ref{equa:11}) to this data, we search for the set of fitting parameters (\ref{equa:13}) using the least squares method. This is done by applying the Trust Region Reflective algorithm to minimize the cost function,
         \begin{align}
-            P^* = \arg \min_P \sum_{K=1}^N \biggl[\hat{i}_k-i(\hat{v}_k,\hat{t}_k, x(\hat{t}_k),P)]^2 \biggr],
+            P^* = \arg \min_P \sum_{K=1}^N \biggl[\hat{i}_k-i(\hat{v}_k,\hat{t}_k, x(\hat{t}_k),P)]^2 \biggr], \label{equa:25}
         \end{align}
         where $i(v, t, x, p)$ is the right-hand side of (\ref{equa:8}). The parameters are non-negative, and the fractional derivative order is bounded, $0 < \alpha \le 1.$. Since the current (\ref{equa:8}) depends on the state variable $x(t)$, for each p we self-consistently solve either the ordinary (\ref{equa:4}) or fractional (\ref{equa:11}) differential equation with respect to the state variable in $0 \le t \le T$. As long as the evolution of $x(t)$ is described in terms of the ordinary differential equation, we keep the parameter $\alpha = 1$ excluded from the fitting parameters vector (\ref{equa:13}). Eq. (\ref{equa:4}) is solved numerically using the Runge–Kutta–Fehlberg method, while Eq. (\ref{equa:11}) is addressed by a means of the Adams-type predictor corrector method on condition that $x(0) = 0$. Once the
         \begin{center}
@@ -242,7 +242,7 @@
         \\
         state variable $x(t)$ is calculated, we interpolate it at time steps $\hat{t}_k$ and evaluate the current $i(v,t,x,p)$ for specific points $\{\hat{v}_k,\hat{t}_k,x(\hat{t}_k)\}_{k=1}^N$. The fitted model is then evaluated and compared to the experimental data using the Normalized Root-Mean-Square Error (NRMSE),
         \begin{align}
-            \text{NRMSE} = \frac{\frac{1}{\sqrt{N}} \sqrt{\sum_{k=1}N (i_k-\hat{i}_k)^2}}{\frac{1}{N} \sum_{k=1}^N \hat{i}_K}
+            \text{NRMSE} = \frac{\frac{1}{\sqrt{N}} \sqrt{\sum_{k=1}N (i_k-\hat{i}_k)^2}}{\frac{1}{N} \sum_{k=1}^N \hat{i}_K} \label{equa:26}
         \end{align}
         where $i_k = i(\hat{v}_k, \hat{t}_k, x(\hat{t}_k), \textbf{p})$ is the evaluated model current.
         \par
@@ -251,7 +251,7 @@
         }
         We fitted the memristor specified by Eqs. (\ref{equa:8}) and (\ref{equa:11}) combining the MHC-based state-controlled currentvoltage relationship and the fractional Yakopcic state variable model to the $i-v$ characteristic data of the electrochemical metallization memory device taken from. The device is a Si memristor with Ag–Cu alloying conducting channels that was fabricated following the method of Yeon et al.. For the $i-v$ measurements that were carried out on a BioLogic VSP-300 workstation, six successive sinusoidal voltage waveforms were applied across the two terminals of the device such that
         \begin{align}
-            v(t) = u_0 \sin(2\pi ft),
+            v(t) = u_0 \sin(2\pi ft), \label{equa:27}
         \end{align}
         with $u_0 = 6 V$ and $f = 1 Hz$ in the unit time interval $t \in [0,1]$. The measured $i-v$ signals were separated into six sequences, and then averaged into a single $i-v$ characteristic cycle on which fitting is performed. \par
         The numerical simulations of the models with the ordinary and fractional derivatives fitted to the experimental
@@ -265,7 +265,7 @@
         i-v data are presented in Fig. 1. As mentioned above we considered the equilibrium Nernst-potential of the electrode to be zero, so that the electrochemical potential in Eqs. (\ref{equa:8}) and (11) is equal to the actual applied voltage on the device. The corresponding fitting parameters are provided in Table I. As one can see, the MHC-Yakopcic model fits very well to the experimental data with NRMSE = 0.401 for the fractional order $\alpha = 0.697$. Remarkably enough, $\text{NRMSE} = 0.399$ when the state variable evolves according to the ordinary differential equation, i.e., with $\alpha = 1$. In comparison, the q-deformed memristor model recently reported in resulted in $\text{NRMSE} = 0.457$. The q-deformed model was derived by taking into account gamma-distributed local spatial inhomogeneities in the device structure. This provided a noticeable improvement in the fitting of the $i-v$ response of the same device under study here when compared to the currently used existing model (i.e., the Yakopcic model with MIM and Schottky electron transmission equations). However, as mentioned above, the kinetics of electrode reactions in redox-based electrochemical metallization memory cells should be rather described by electron transfer theory. \par
         The value of $\alpha = 0.697$ (Table I) in the fractional derivative for the state variable equation indicates that its dynamics does not evolve without prior knowledge of all past information of its state or memory of its past. This can be clearly illustrated by rewriting Eq. (\ref{equa:21}) as:
         \begin{align}
-            x_h^P (t_{n+1}) = \frac{h^\alpha}{\Gamma (\alpha + 1)} \biggl\{ F_n + \sum_{j=0}^{n-1} F_j \cdot b_{n-j} \biggr\} + ...,
+            x_h^P (t_{n+1}) = \frac{h^\alpha}{\Gamma (\alpha + 1)} \biggl\{ F_n + \sum_{j=0}^{n-1} F_j \cdot b_{n-j} \biggr\} + ..., \label{equa:28}
         \end{align}
         which can be decoupled as the the sum of the immediate past of the state variable, and a memory trace, represented by the second summation term, that contains information about all previous states of the device. \par
         The magnitude of the memory trace term increases when $\alpha$ decreases further away from one, and when we are close to the actual instant t at which the variable is evaluated. At the limiting case of $\alpha = 1$, corresponding to first-order integer derivative, the memory trace part vanishes, and does not have any effect on the dynamics of the state variable. Here, because $\alpha = 1$ we may speak of an intrinsic memory embedded in our redox-based resistive memory device. Fractional dynamics are in fact very often observed in electrochemical devices and complex systems. Indeed, a close inspection of Table I reveals that the fractional MHC-Yakopcic memristor model is practically insensitive to the input voltage $a_p, a_n \approx 0.$.

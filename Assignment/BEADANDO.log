@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  7 MAY 2023 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  7 MAY 2023 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1198,34 +1198,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-
-LaTeX Warning: Reference `equa:6' on page 2 undefined on input line 114.
-
-
-LaTeX Warning: Reference `equa:7' on page 2 undefined on input line 114.
-
-
-LaTeX Warning: Reference `equa:10' on page 2 undefined on input line 134.
-
-
-LaTeX Warning: Reference `equa:8' on page 2 undefined on input line 136.
-
-
-LaTeX Warning: Reference `equa:10' on page 2 undefined on input line 136.
-
 [2]
-
-LaTeX Warning: Reference `equa:4' on page 3 undefined on input line 137.
-
-
-LaTeX Warning: Reference `equa:10' on page 3 undefined on input line 158.
-
-
-LaTeX Warning: Reference `equa:14' on page 3 undefined on input line 166.
-
-
-LaTeX Warning: Reference `equa:10' on page 3 undefined on input line 170.
-
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
@@ -1247,66 +1220,8 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `equa:11' on page 3 undefined on input line 177.
-
-
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 185.
-
-
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 186.
-
-
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 194.
-
-
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 194.
-
-
-LaTeX Warning: Reference `equa:20' on page 3 undefined on input line 206.
-
-
-LaTeX Warning: Reference `equa:22' on page 3 undefined on input line 206.
-
-
-LaTeX Warning: Reference `equa:21' on page 3 undefined on input line 206.
-
-
-LaTeX Warning: Reference `equa:23' on page 3 undefined on input line 206.
-
-
-LaTeX Warning: Reference `equa:21' on page 3 undefined on input line 206.
-
-
-LaTeX Warning: Reference `equa:23' on page 3 undefined on input line 206.
 
 [3]
-
-LaTeX Warning: Reference `equa:7' on page 4 undefined on input line 209.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 209.
-
-
-LaTeX Warning: Reference `equa:8' on page 4 undefined on input line 213.
-
-
-LaTeX Warning: Reference `equa:8' on page 4 undefined on input line 213.
-
-
-LaTeX Warning: Reference `equa:4' on page 4 undefined on input line 213.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 213.
-
-
-LaTeX Warning: Reference `equa:4' on page 4 undefined on input line 213.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 213.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 239--244
 
  []
@@ -1316,13 +1231,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--244
 
  []
 
-
-LaTeX Warning: Reference `equa:8' on page 4 undefined on input line 252.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 252.
-
-<latex_figure_a.png, id=98, 268.00125pt x 186.6975pt>
+<latex_figure_a.png, id=128, 268.00125pt x 186.6975pt>
 File: latex_figure_a.png Graphic file (type png)
 <use latex_figure_a.png>
 Package pdftex.def Info: latex_figure_a.png  used on input line 260.
@@ -1340,22 +1249,7 @@ environment!.
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
 environment!.
 
-
-LaTeX Warning: Reference `equa:4' on page 4 undefined on input line 264.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 264.
-
-
-LaTeX Warning: Reference `equa:8' on page 4 undefined on input line 265.
-
-
-LaTeX Warning: Reference `equa:21' on page 4 undefined on input line 266.
-
 [4] [5] (BEADANDO.aux)
-
-LaTeX Warning: There were undefined references.
-
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1363,31 +1257,27 @@ Package rerunfilecheck Info: File `BEADANDO.out' has not changed.
 (rerunfilecheck)             Checksum: BD2EB16E301DC9376A11A8B02AF08AF4;1239.
  ) 
 Here is how much of TeX's memory you used:
- 31701 strings out of 475385
- 752233 string characters out of 2776906
+ 31704 strings out of 475385
+ 752257 string characters out of 2776906
  1323612 words of memory out of 3000000
- 52481 multiletter control sequences out of 15000+600000
+ 52485 multiletter control sequences out of 15000+600000
  510329 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,103p,2507b,629s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{equation.2.4} has been referenced but does not exis
-t, replaced by a fixed one
-
-{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<D:/U
-sers/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.
-pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
-ts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/font
-s/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts
-/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts
-/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts
-/type1/urw/times/utmri8a.pfb>
-Output written on BEADANDO.pdf (5 pages, 143122 bytes).
+ 99i,16n,103p,2507b,617s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<D:
+/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fo
+nts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on BEADANDO.pdf (5 pages, 147979 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
+ 196 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
  82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
