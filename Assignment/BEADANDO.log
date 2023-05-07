@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  5 MAY 2023 21:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  7 MAY 2023 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -837,29 +837,33 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip65
 \f@nch@O@orf=\skip66
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+0.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(BEADANDO.aux)
+(BEADANDO.aux
+
+LaTeX Warning: Label `equa:1' multiply defined.
+
+)
 \openout1 = `BEADANDO.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -925,43 +929,43 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 59.
+ on input line 60.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 62.
+ 63.
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 62.
+ 63.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 62.
+ 63.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 62.
+ 63.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 
 [1
 
@@ -969,7 +973,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 ! Missing } inserted.
 <inserted text> 
                 }
-l.108 \end{align}
+l.109 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -978,7 +982,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} \label {equa:6} 
-l.108 \end{align}
+l.109 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -989,7 +993,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.108 \end{align}
+l.109 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -998,7 +1002,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} \label {equa:6} 
-l.108 \end{align}
+l.109 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1009,7 +1013,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.113 \end{align}
+l.114 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1018,7 +1022,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} \label {equa:7} 
-l.113 \end{align}
+l.114 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1029,7 +1033,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.113 \end{align}
+l.114 \end{align}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1038,7 +1042,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} \label {equa:7} 
-l.113 \end{align}
+l.114 \end{align}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1046,14 +1050,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-
-LaTeX Warning: Reference `equa:6' on page 2 undefined on input line 114.
-
-
-LaTeX Warning: Reference `equa:7' on page 2 undefined on input line 114.
-
 ! Extra }, or forgotten $.
-l.133 ...rgy scaled to $\text{k}_\text{B}\text{T}}
+l.134 ...rgy scaled to $\text{k}_\text{B}\text{T}}
                                                   $, while the integral over...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1061,32 +1059,11 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-
-LaTeX Warning: Reference `equa:10' on page 2 undefined on input line 134.
-
-
-LaTeX Warning: Reference `equa:8' on page 2 undefined on input line 136.
-
-
-LaTeX Warning: Reference `equa:10' on page 2 undefined on input line 136.
-
 [2]
-
-LaTeX Warning: Reference `equa:4' on page 3 undefined on input line 137.
-
-
-LaTeX Warning: Reference `equa:10' on page 3 undefined on input line 156.
-
-
-LaTeX Warning: Reference `equa:14' on page 3 undefined on input line 164.
-
-
-LaTeX Warning: Reference `equa:10' on page 3 undefined on input line 168.
-
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.171 \end{align}
+l.174 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1097,7 +1074,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.171 \end{align}
+l.174 \end{align}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1106,35 +1083,40 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `equa:11' on page 3 undefined on input line 175.
+LaTeX Warning: Reference `equa:22' on page 3 undefined on input line 207.
 
 
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 183.
+LaTeX Warning: Reference `equa:21' on page 3 undefined on input line 207.
 
 
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 184.
+LaTeX Warning: Reference `equa:23' on page 3 undefined on input line 207.
 
 
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 192.
+LaTeX Warning: Reference `equa:21' on page 3 undefined on input line 207.
 
 
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 192.
+LaTeX Warning: Reference `equa:23' on page 3 undefined on input line 207.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 210--213
+Underfull \hbox (badness 10000) in paragraph at lines 241--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--246
 
  []
 
 <latex_figure_a.png, id=23, 268.00125pt x 186.6975pt>
 File: latex_figure_a.png Graphic file (type png)
 <use latex_figure_a.png>
-Package pdftex.def Info: latex_figure_a.png  used on input line 257.
-(pdftex.def)             Requested size: 214.40128pt x 149.35818pt.
+Package pdftex.def Info: latex_figure_a.png  used on input line 262.
+(pdftex.def)             Requested size: 268.00058pt x 186.69704pt.
+
+Overfull \hbox (23.44926pt too wide) in paragraph at lines 262--263
+[][] 
+ []
+
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
 environment!.
@@ -1142,12 +1124,15 @@ environment!.
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
 environment!.
+
+
+LaTeX Warning: Reference `equa:21' on page 4 undefined on input line 268.
 
 [4]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.299 \end{multicols}
+l.280 \end{multicols}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1160,14 +1145,14 @@ my insertion and my current dilemma will both disappear.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24962 strings out of 475385
- 644774 string characters out of 2776906
- 1221634 words of memory out of 3000000
- 45888 multiletter control sequences out of 15000+600000
+ 24967 strings out of 475385
+ 644820 string characters out of 2776906
+ 1220634 words of memory out of 3000000
+ 45893 multiletter control sequences out of 15000+600000
  510329 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,103p,2499b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1182,7 +1167,7 @@ nts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on BEADANDO.pdf (5 pages, 131301 bytes).
+Output written on BEADANDO.pdf (5 pages, 131565 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
