@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  8 MAY 2023 11:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  8 MAY 2023 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -46,18 +46,18 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 22.
+(Font)              <5> on input line 23.
 
 ! Undefined control sequence.
-l.30 \oint_g \mathbf{B}\cdot d\mathbb
+l.31 \oint_g \mathbf{B}\cdot d\mathbb
                                      {s}=\mu_0\int_A\left(\mathbf{J}+\epsilo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -70,10 +70,10 @@ and I'll forget about whatever was undefined.
 {C:/Users/Danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (exam7.aux) 
 ) 
 Here is how much of TeX's memory you used:
- 456 strings out of 475385
- 8636 string characters out of 2776906
- 352712 words of memory out of 3000000
- 21907 multiletter control sequences out of 15000+600000
+ 457 strings out of 475385
+ 8644 string characters out of 2776906
+ 353712 words of memory out of 3000000
+ 21908 multiletter control sequences out of 15000+600000
  473260 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  33i,8n,38p,214b,275s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -90,7 +90,7 @@ ie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Us
 ers/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 msy10.pfb>
-Output written on exam7.pdf (1 page, 111033 bytes).
+Output written on exam7.pdf (1 page, 112653 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
