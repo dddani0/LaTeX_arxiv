@@ -22,7 +22,7 @@
 \usepackage{pgfplots} % for graphing (page 5 on the official document)
 \usepackage{etoolbox}
 \usepackage[style=numeric-comp]{biblatex}
-\usepackage{cite}
+\usepackage[superscript,biblabel]{cite}
 \usepackage{tabularx}
 \usepackage{changepage}
 \usepackage{mathptmx} %font
@@ -30,10 +30,10 @@
 \usepackage{authblk} % több author címke
 \usepackage{fancyhdr} % for nicer header
 \pagestyle{fancy}
+\usepackage{etoolbox} %remove bibliography title package
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\makeatletter
-\renewcommand*{\@biblabel}[1]{\textsuperscript{\hfill#1.}}
-\makeatother
+\hypersetup{citecolor=blue}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{} % remove bibliography title
 \renewcommand{\headrulewidth}{0pt} % sets both header and footer to nothing
 \fancyhf{} % removes numbering from the bottom of the page
 \fancyhead[R]{\thepage}

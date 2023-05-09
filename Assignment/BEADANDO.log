@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  9 MAY 2023 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  9 MAY 2023 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1146,6 +1146,7 @@ Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
+LaTeX Info: Redefining \cite on input line 441.
 ) (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
@@ -1395,11 +1396,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 
 [1
 
@@ -1618,13 +1619,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--287
 
  []
 
-
-Overfull \vbox (6.4375pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (6.4375pt too high) has occurred while \output is active []
-
-
 [5 <./latex_graph.png>] [6] (BEADANDO.aux)
 Package rerunfilecheck Info: File `BEADANDO.out' has not changed.
 (rerunfilecheck)             Checksum: BD2EB16E301DC9376A11A8B02AF08AF4;1239.
@@ -1633,10 +1627,10 @@ Package logreq Info: Writing requests to 'BEADANDO.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38896 strings out of 475385
- 897320 string characters out of 2776906
- 1825611 words of memory out of 3000000
- 59602 multiletter control sequences out of 15000+600000
+ 38900 strings out of 475385
+ 897349 string characters out of 2776906
+ 1825787 words of memory out of 3000000
+ 59607 multiletter control sequences out of 15000+600000
  510329 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,103p,2507b,801s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1651,9 +1645,9 @@ nts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on BEADANDO.pdf (6 pages, 193737 bytes).
+Output written on BEADANDO.pdf (6 pages, 193508 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
  82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
