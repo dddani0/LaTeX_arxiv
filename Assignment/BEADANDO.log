@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  8 MAY 2023 09:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  9 MAY 2023 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -895,7 +895,258 @@ File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count345
 )
-(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count346
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count347
+\c@listtotal=\count348
+\c@listcount=\count349
+\c@liststart=\count350
+\c@liststop=\count351
+\c@citecount=\count352
+\c@citetotal=\count353
+\c@multicitecount=\count354
+\c@multicitetotal=\count355
+\c@instcount=\count356
+\c@maxnames=\count357
+\c@minnames=\count358
+\c@maxitems=\count359
+\c@minitems=\count360
+\c@citecounter=\count361
+\c@maxcitecounter=\count362
+\c@savedcitecounter=\count363
+\c@uniquelist=\count364
+\c@uniquename=\count365
+\c@refsection=\count366
+\c@refsegment=\count367
+\c@maxextratitle=\count368
+\c@maxextratitleyear=\count369
+\c@maxextraname=\count370
+\c@maxextradate=\count371
+\c@maxextraalpha=\count372
+\c@abbrvpenalty=\count373
+\c@highnamepenalty=\count374
+\c@lownamepenalty=\count375
+\c@maxparens=\count376
+\c@parenlevel=\count377
+\blx@tempcnta=\count378
+\blx@tempcntb=\count379
+\blx@tempcntc=\count380
+\c@blx@maxsection=\count381
+\blx@maxsegment@0=\count382
+\blx@notetype=\count383
+\blx@parenlevel@text=\count384
+\blx@parenlevel@foot=\count385
+\blx@sectionciteorder@0=\count386
+\blx@sectionciteorderinternal@0=\count387
+\blx@entrysetcounter=\count388
+\blx@biblioinstance=\count389
+\labelnumberwidth=\skip55
+\labelalphawidth=\skip56
+\biblabelsep=\skip57
+\bibitemsep=\skip58
+\bibnamesep=\skip59
+\bibinitsep=\skip60
+\bibparsep=\skip61
+\bibhang=\skip62
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language79
+\c@mincomprange=\count390
+\c@maxcomprange=\count391
+\c@mincompwidth=\count392
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count393
+\c@savedafterword=\count394
+\c@annotator=\count395
+\c@savedannotator=\count396
+\c@author=\count397
+\c@savedauthor=\count398
+\c@bookauthor=\count399
+\c@savedbookauthor=\count400
+\c@commentator=\count401
+\c@savedcommentator=\count402
+\c@editor=\count403
+\c@savededitor=\count404
+\c@editora=\count405
+\c@savededitora=\count406
+\c@editorb=\count407
+\c@savededitorb=\count408
+\c@editorc=\count409
+\c@savededitorc=\count410
+\c@foreword=\count411
+\c@savedforeword=\count412
+\c@holder=\count413
+\c@savedholder=\count414
+\c@introduction=\count415
+\c@savedintroduction=\count416
+\c@namea=\count417
+\c@savednamea=\count418
+\c@nameb=\count419
+\c@savednameb=\count420
+\c@namec=\count421
+\c@savednamec=\count422
+\c@translator=\count423
+\c@savedtranslator=\count424
+\c@shortauthor=\count425
+\c@savedshortauthor=\count426
+\c@shorteditor=\count427
+\c@savedshorteditor=\count428
+\c@labelname=\count429
+\c@savedlabelname=\count430
+\c@institution=\count431
+\c@savedinstitution=\count432
+\c@lista=\count433
+\c@savedlista=\count434
+\c@listb=\count435
+\c@savedlistb=\count436
+\c@listc=\count437
+\c@savedlistc=\count438
+\c@listd=\count439
+\c@savedlistd=\count440
+\c@liste=\count441
+\c@savedliste=\count442
+\c@listf=\count443
+\c@savedlistf=\count444
+\c@location=\count445
+\c@savedlocation=\count446
+\c@organization=\count447
+\c@savedorganization=\count448
+\c@origlocation=\count449
+\c@savedoriglocation=\count450
+\c@origpublisher=\count451
+\c@savedorigpublisher=\count452
+\c@publisher=\count453
+\c@savedpublisher=\count454
+\c@language=\count455
+\c@savedlanguage=\count456
+\c@origlanguage=\count457
+\c@savedoriglanguage=\count458
+\c@pageref=\count459
+\c@savedpageref=\count460
+\shorthandwidth=\skip63
+\shortjournalwidth=\skip64
+\shortserieswidth=\skip65
+\shorttitlewidth=\skip66
+\shortauthorwidth=\skip67
+\shorteditorwidth=\skip68
+\locallabelnumberwidth=\skip69
+\locallabelalphawidth=\skip70
+\localshorthandwidth=\skip71
+\localshortjournalwidth=\skip72
+\localshortserieswidth=\skip73
+\localshorttitlewidth=\skip74
+\localshortauthorwidth=\skip75
+\localshorteditorwidth=\skip76
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+\c@textcitecount=\count461
+\c@textcitetotal=\count462
+\c@textcitemaxnames=\count463
+\c@biburlbigbreakpenalty=\count464
+\c@biburlbreakpenalty=\count465
+\c@biburlnumpenalty=\count466
+\c@biburlucpenalty=\count467
+\c@biburllcpenalty=\count468
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count469
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-co
+mp.bbx
+File: numeric-comp.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
+x
+File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
+File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count470
+\c@bbx:relatedtotal=\count471
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-co
+mp.cbx
+File: numeric-comp.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count472
+\c@cbx@tempcntb=\count473
+\c@cbx@tempcntc=\count474
+\c@cbx@tempcntd=\count475
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2022-09-28 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
+
+)) (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
@@ -904,8 +1155,8 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \ar@mcellbox=\box113
 \extrarowheight=\dimen294
 \NC@list=\toks40
-\extratabsurround=\skip55
-\backup@length=\skip56
+\extratabsurround=\skip77
+\backup@length=\skip78
 \ar@cellbox=\box114
 )
 \TX@col@width=\dimen295
@@ -913,14 +1164,14 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \TX@old@col=\dimen297
 \TX@target=\dimen298
 \TX@delta=\dimen299
-\TX@cols=\count346
+\TX@cols=\count476
 \TX@ftn=\toks41
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.s
 ty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count347
-\cp@tempcnt=\count348
+\c@cp@cntr=\count477
+\cp@tempcnt=\count478
 ) (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
@@ -963,53 +1214,66 @@ Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/preprint\authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip57
-\@affilsep=\skip58
-\c@Maxaffil=\count349
-\c@authors=\count350
-\c@affil=\count351
+\affilsep=\skip79
+\@affilsep=\skip80
+\c@Maxaffil=\count479
+\c@authors=\count480
+\c@affil=\count481
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip59
-\f@nch@O@elh=\skip60
-\f@nch@O@erh=\skip61
-\f@nch@O@olh=\skip62
-\f@nch@O@orh=\skip63
-\f@nch@O@elf=\skip64
-\f@nch@O@erf=\skip65
-\f@nch@O@olf=\skip66
-\f@nch@O@orf=\skip67
+\f@nch@headwidth=\skip81
+\f@nch@O@elh=\skip82
+\f@nch@O@erh=\skip83
+\f@nch@O@olh=\skip84
+\f@nch@O@orh=\skip85
+\f@nch@O@elf=\skip86
+\f@nch@O@erf=\skip87
+\f@nch@O@olf=\skip88
+\f@nch@O@orf=\skip89
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 42.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
-4.
+Package hyperref Info: Option `colorlinks' set `true' on input line 47.
 
+
+! Package biblatex Error: Incompatible package 'cite'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \begin{document}
+                     
+The 'cite' package and biblatex are incompatible.
+
+\@quotelevel=\count482
+\@quotereset=\count483
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+9.
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (BEADANDO.aux)
 \openout1 = `BEADANDO.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1049,16 +1313,16 @@ LaTeX Font Info:    ... okay on input line 64.
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count352
+\scratchcounter=\count484
 \scratchdimen=\dimen300
 \scratchbox=\box115
-\nofMPsegments=\count353
-\nofMParguments=\count354
+\nofMPsegments=\count485
+\nofMParguments=\count486
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count355
+\MPscratchCnt=\count487
 \MPscratchDim=\dimen301
-\MPnumerator=\count356
-\makeMPintoPDFobject=\count357
+\MPnumerator=\count488
+\makeMPintoPDFobject=\count489
 \everyMPtoPDFconversion=\toks43
 )
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1071,53 +1335,71 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 64.
+Package hyperref Info: Link coloring ON on input line 69.
  (BEADANDO.out) (BEADANDO.out)
-\@outlinefile=\write4
-\openout4 = `BEADANDO.out'.
+\@outlinefile=\write5
+\openout5 = `BEADANDO.out'.
 
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 64.
+ on input line 69.
 
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+x
+File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `BEADANDO.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'BEADANDO.bbl' not found.
+
+No file BEADANDO.bbl.
+Package biblatex Info: Reference section=0 on input line 69.
+Package biblatex Info: Reference segment=0 on input line 69.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 67.
+ 72.
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 67.
+ 72.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 67.
+ 72.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 67.
+ 72.
 
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 
 [1
 
@@ -1125,7 +1407,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 ! Missing } inserted.
 <inserted text> 
                 }
-l.112         \end{align}
+l.117         \end{align}
                          
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1134,7 +1416,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} \label {equa:6} 
-l.112         \end{align}
+l.117         \end{align}
                          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1145,7 +1427,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.112         \end{align}
+l.117         \end{align}
                          
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1154,26 +1436,6 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...(x-x_p), &x \ge x_p, \\ 1 &x < x_p,}
                                                   \end {cases} \label {equa:6} 
-l.112         \end{align}
-                         
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.117         \end{align}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Extra }, or forgotten $.
-<argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
-                                                  \end {cases} \label {equa:7} 
 l.117         \end{align}
                          
 I've deleted a group-closing symbol because it seems to be
@@ -1185,7 +1447,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.117         \end{align}
+l.122         \end{align}
                          
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1194,7 +1456,27 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
                                                   \end {cases} \label {equa:7} 
-l.117         \end{align}
+l.122         \end{align}
+                         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.122         \end{align}
+                         
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<argument> ...+x_n-1), &x \le x_n, \\ 1 &x > x_n,}
+                                                  \end {cases} \label {equa:7} 
+l.122         \end{align}
                          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1203,24 +1485,24 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 155--158
+Underfull \hbox (badness 10000) in paragraph at lines 160--163
 
  []
 
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.178         \end{align}
+l.183         \end{align}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1231,7 +1513,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...p {\{2x_k \sqrt {\lambda } + \lamda 
                                                   \pm v\}}
-l.178         \end{align}
+l.183         \end{align}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1240,27 +1522,27 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--182
+Underfull \hbox (badness 10000) in paragraph at lines 183--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--182
+Underfull \hbox (badness 10000) in paragraph at lines 183--187
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 216--218
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--223
+Underfull \hbox (badness 10000) in paragraph at lines 225--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--256
+Underfull \hbox (badness 10000) in paragraph at lines 258--261
 
  []
 
@@ -1271,7 +1553,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.267         \begin{wrapfigure}
+l.272         \begin{wrapfigure}
                                 {}{\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1280,7 +1562,7 @@ or  <return>  to continue without it.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.267         \begin{wrapfigure}{}{\linewidth}
+l.272         \begin{wrapfigure}{}{\linewidth}
                                               
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1289,7 +1571,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.267         \begin{wrapfigure}{}{\linewidth}
+l.272         \begin{wrapfigure}{}{\linewidth}
                                               
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1298,59 +1580,66 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<latex_graph.png, id=127, 218.61674pt x 261.3765pt>
+<latex_graph.png, id=140, 218.61674pt x 261.3765pt>
 File: latex_graph.png Graphic file (type png)
 <use latex_graph.png>
-Package pdftex.def Info: latex_graph.png  used on input line 268.
+Package pdftex.def Info: latex_graph.png  used on input line 273.
 (pdftex.def)             Requested size: 255.93245pt x 305.99669pt.
 
-! LaTeX Error: \begin{multicols} on input line 83 ended by \end{wrapfigure}.
+! LaTeX Error: \begin{multicols} on input line 88 ended by \end{wrapfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269         \end{wrapfigure}
+l.274         \end{wrapfigure}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (11.38113pt too wide) in paragraph at lines 265--274
+Overfull \hbox (11.38113pt too wide) in paragraph at lines 270--279
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--274
+Underfull \hbox (badness 10000) in paragraph at lines 270--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--274
+Underfull \hbox (badness 10000) in paragraph at lines 270--279
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 280--282
+Underfull \hbox (badness 10000) in paragraph at lines 285--287
 
  []
 
-[5 <./latex_graph.png>] (BEADANDO.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Overfull \vbox (6.4375pt too high) has occurred while \output is active []
 
+
+Overfull \vbox (6.4375pt too high) has occurred while \output is active []
+
+
+[5 <./latex_graph.png>] [6] (BEADANDO.aux)
 Package rerunfilecheck Info: File `BEADANDO.out' has not changed.
 (rerunfilecheck)             Checksum: BD2EB16E301DC9376A11A8B02AF08AF4;1239.
+Package logreq Info: Writing requests to 'BEADANDO.run.xml'.
+\openout1 = `BEADANDO.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 31793 strings out of 475385
- 753960 string characters out of 2776906
- 1323524 words of memory out of 3000000
- 52567 multiletter control sequences out of 15000+600000
+ 38896 strings out of 475385
+ 897320 string characters out of 2776906
+ 1825611 words of memory out of 3000000
+ 59602 multiletter control sequences out of 15000+600000
  510329 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,103p,2507b,611s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,16n,103p,2507b,801s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<D:
 /Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1362,9 +1651,9 @@ nts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on BEADANDO.pdf (5 pages, 186809 bytes).
+Output written on BEADANDO.pdf (6 pages, 193737 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
  82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

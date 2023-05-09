@@ -21,6 +21,8 @@
 \usepackage{hyperref}
 \usepackage{pgfplots} % for graphing (page 5 on the official document)
 \usepackage{etoolbox}
+\usepackage[style=numeric-comp]{biblatex}
+\usepackage{cite}
 \usepackage{tabularx}
 \usepackage{changepage}
 \usepackage{mathptmx} %font
@@ -29,6 +31,9 @@
 \usepackage{fancyhdr} % for nicer header
 \pagestyle{fancy}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewcommand*{\@biblabel}[1]{\textsuperscript{\hfill#1.}}
+\makeatother
 \renewcommand{\headrulewidth}{0pt} % sets both header and footer to nothing
 \fancyhf{} % removes numbering from the bottom of the page
 \fancyhead[R]{\thepage}
@@ -83,14 +88,14 @@
     \begin{multicols}{2}
     {\centering % Only center the section title
     \section{\sc{\bfseries introduction}}}
-        Substantial research efforts have been dedicated to the development of electrically-controlled resistive switching in metal-insulator-metal (MIM) devices or memristors, going from new materials discovery to modelling and simulation, and design and applications. With both memory and logic capabilities combined at the hardware level, in addition to long retention times and high switching rates at relatively low energy consumption, these devices are favorably seen as the next-generation building blocks for nonvolatile memories and neuromorphic computing applications. In a typical memristor, the resistive switching is based on the electrically-stimulated change of cell resistance usually driven by internal ion redistribution, which actually depends not only on the applied excitation but also on the past history of the excitation. Physical mechanisms associated with these reversible transitions have been attributed to different effects including valencechange, electrochemical metallization, and phase change effects. They can be either abrupt (binary) or gradual (analogue), and evolve at different timescales, leading to rich and complex device behaviors in this seemingly simple device structure of just three layers. Furthermore, with the wide range of diversity in memristors materials and their morphologies, operating mechanisms, and manufacturing technologies there is an urgent need for the development of a general model capable of capturing accurately and effectively their complex nonlinear dynamics. This is crucial not only for the characterization and comparison between different memristor devices, but also for the investigation of larger scale memristorbased circuits and hybrid hardware architectures, and also to explore similar behaviors observed for instance in biological synapse systems.
+        Substantial research efforts have been dedicated to the development of electrically-controlled resistive switching in metal-insulator-metal (MIM) devices or memristors, going from new materials discovery\cite{cit1, cit2, cit3, cit4, cit5, cit6, cit7} to modelling and simulation\cite{cit8, cit9, cit10}, and design and applications\cite{cit8}. With both memory and logic capabilities combined at the hardware level, in addition to long retention times and high switching rates at relatively low energy consumption\cite{cit1}, these devices are favorably seen as the next-generation building blocks for nonvolatile memories and neuromorphic computing applications. In a typical memristor, the resistive switching is based on the electrically-stimulated change of cell resistance usually driven by internal ion redistribution, which actually depends not only on the applied excitation but also on the past history of the excitation\cite{cit6}. Physical mechanisms associated with these reversible transitions have been attributed to different effects including valencechange, electrochemical metallization, and phase change effects. They can be either abrupt (binary) or gradual (analogue), and evolve at different timescales, leading to rich and complex device behaviors in this seemingly simple device structure of just three layers. Furthermore, with the wide range of diversity in memristors materials and their morphologies, operating mechanisms, and manufacturing technologies there is an urgent need for the development of a general model capable of capturing accurately and effectively their complex nonlinear dynamics. This is crucial not only for the characterization and comparison between different memristor devices, but also for the investigation of larger scale memristorbased circuits and hybrid hardware architectures, and also to explore similar behaviors observed for instance in biological synapse systems.
         \par
         While models at different size scales and thus with different degrees of physical details and computational complexity have been developed for memritors, including but not limited to ab initio, Kinetic Monte Carlo, and finite element method modells, in this work we focus on the circuit-level (compact) current-voltage behavior of the memristors. From this point of view, Memristors are generally described by the systems of coupled equations:
         \begin{align}
             i &= G(v,x)v, \label{equa:1} \\
             \dot{x} &= f(x,v), \label{equa:2}
         \end{align}
-        where $i = i(t)$ is the current through the device, $v = v(t)$ is the applied voltage, and $x = x(t)$ corresponds to a state variable or a group of state variables that quantify the internal dynamics of the device. These are, for example, width of doping region, concentration of vacancies in the gap region, and tunneling barrier width. State vairables can not be observed from external electrical behavior. Eq. (\hyperref[equa:1]{\ref{equa:1}}) follows the $i-v$ curve of the resistive device in the question with $G(v,x)$ being the generalized conductance, whereas Eq. (\ref{equa:2}) describes the dynamics of the it's internal state x based on it's prehistory. The actual stat of a memristor can only be determined by solving Eqs. (\ref{equa:1}) and (\ref{equa:2}) self- consistently. Memristive systems as featured in terms of Eqs. (\ref{equa:1}) and (\ref{equa:2}) are known to possess a pinched hysteresis loop at the origin in the $i-v$ plane in the response to any periodic voltage source. \par
+        where $i = i(t)$ is the current through the device, $v = v(t)$ is the applied voltage, and $x = x(t)$ corresponds to a state variable or a group of state variables that quantify the internal dynamics of the device. These are, for example, width of doping region, concentration of vacancies in the gap region, and tunneling barrier width\cite{cit8}. State vairables can not be observed from external electrical behavior. Eq. (\hyperref[equa:1]{\ref{equa:1}}) follows the $i-v$ curve of the resistive device in the question with $G(v,x)$ being the generalized conductance, whereas Eq. (\ref{equa:2}) describes the dynamics of the it's internal state x based on it's prehistory. The actual stat of a memristor can only be determined by solving Eqs. (\ref{equa:1}) and (\ref{equa:2}) self- consistently. Memristive systems as featured in terms of Eqs. (\ref{equa:1}) and (\ref{equa:2}) are known to possess a pinched hysteresis loop at the origin in the $i-v$ plane in the response to any periodic voltage source. \par
         Being versatile and modular enough it is the Yakopcic model which is most often used to simulate the nonlinear $i-v$ characteristic of wide range of memristors in response to sinusoidal and repetitive sweeping inputs. The model takes into account electron transmission effects, voltage threshold for state variable motion,
         and nonlinear velocity function for oxygen vacancies or dopant drift, considered to be the most relevant internal state information. It follows on the steps of Strukov et al. work, and describes the memristor as two resistors in series characterized by electron transmission equations so that:
         \begin{align}
@@ -299,4 +304,18 @@
         \vspace{-1.225em}
         \rule{0.5\textwidth}{0.4pt}
     \end{center}
+    \begin{multicols}{2}
+        \begin{thebibliography}{13}
+            \bibitem{cit1}B. J. Choi, A. C. Torrezan, J. P. Strachan, P. G. Kotula,A. J. Lohn, M. J. Marinella, Z. Li, R. S. Williams, and \textit{Adv. Funct. Mater.}, 26(29):52900-5296, 2016
+            \bibitem{cit2} C.-Y. Wang, C. Wang, F. Meng, P. Wang, S. Wang, S.-J. Liang, and F. Miao. 2d layered materials for memristive and neuromorphic applications. \textit{Adv. Electron. Mater.}, 6(2):1901107, 2020
+            \bibitem{cit3} Y. van De Burgt, A. Melianas, S. T. Keene, G. Malliaras, and A. Salleo. Organic electronics for neuromorphic computing. \textit{Nat. Electron.}, 1(7):386–397, 2018
+            \bibitem{cit4} Ethan C Ahn, H-S Philip Wong, and Eric Pop. Carbon nanomaterials for non-volatile memories. \textit{Nat. Rev. Mater.}, 3(3):1–15, 2018.
+            \bibitem{cit5} Vinod K Sangwan and Mark C Hersam. Neuromorphic nanoelectronic materials. \textit{Nat. Nanotechnol.}, 15(7):517– 528, 2020
+            \bibitem{cit6} S. Satapathi, K. Raj, and M. A. Afroz. Halide-perovskite based memristor devices and their application in neuromorphic computing. \textit{Phys. Rev. Applied}, 18(1):017001, 2022.
+            \bibitem{cit7} S.-G. Xu, P. Zhang, and X. Zhang. Design of memristor materials from ordered-vacancy zincblende semiconductors. \textit{Phys. Rev. Mater.}, 5(2):024603, 2021
+            \bibitem{cit8} N. V. Agudov, A. V. Safonov, A. V. Krichigin, A. A. Kharcheva, A. A. Dubkov, D. Valenti, D. V. Guseinov, A. I. Belov, A. N. Mikhaylov, and A. Carollo. Nonstationary distributions and relaxation times in a stochastic model of memristor. \textit{J. Stat. Mech.: Theory Exp.}, 2020(2):024003, 2020
+            \bibitem{cit9} W. Wang, M. Laudato, E. Ambrosi, A. Bricalli, E. Covi, Y.-H. Lin, and D. Ielmini. Volatile resistive switching memory based on ag ion drift/diffusion—part ii: Compact modeling. \textit{IEEE Trans. Electron. Devices,} 66(9):3802–3808, 2019
+            \bibitem{cit10} Kena Zhang, Jianjun Wang, Yuhui Huang, Long-Qing Chen, P Ganesh, and Ye Cao. High-throughput phase-field simulations and machine learning of resistive switching in resistive random-access memory. \textit{Npj Comput. Mater.}, 6(1):1–10, 2020
+        \end{thebibliography}
+    \end{multicols}
 \end{document}
