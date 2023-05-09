@@ -12,7 +12,7 @@
 \usepackage[margin={1.8cm,1.8cm},top=2cm, bottom=2cm]{geometry}
 \usepackage{amsmath} %for math equations and formality (like. \text{})
 \usepackage{multicol} % multiple column package
-\usepackage{afterpage} % hacky page geometry
+\usepackage{afterpage} 
 \usepackage{graphicx}
 \usepackage{mwe}
 \usepackage{indentfirst}
@@ -88,7 +88,9 @@
     \begin{multicols}{2}
     {\centering % Only center the section title
     \section{\sc{\bfseries introduction}}}
+    \medskip
         Substantial research efforts have been dedicated to the development of electrically-controlled resistive switching in metal-insulator-metal (MIM) devices or memristors, going from new materials discovery\cite{cit1, cit2, cit3, cit4, cit5, cit6, cit7} to modelling and simulation\cite{cit8, cit9, cit10}, and design and applications\cite{cit8}. With both memory and logic capabilities combined at the hardware level, in addition to long retention times and high switching rates at relatively low energy consumption\cite{cit1}, these devices are favorably seen as the next-generation building blocks for nonvolatile memories and neuromorphic computing applications. In a typical memristor, the resistive switching is based on the electrically-stimulated change of cell resistance usually driven by internal ion redistribution, which actually depends not only on the applied excitation but also on the past history of the excitation\cite{cit6}. Physical mechanisms associated with these reversible transitions have been attributed to different effects including valencechange, electrochemical metallization, and phase change effects. They can be either abrupt (binary) or gradual (analogue), and evolve at different timescales, leading to rich and complex device behaviors in this seemingly simple device structure of just three layers. Furthermore, with the wide range of diversity in memristors materials and their morphologies, operating mechanisms, and manufacturing technologies there is an urgent need for the development of a general model capable of capturing accurately and effectively their complex nonlinear dynamics. This is crucial not only for the characterization and comparison between different memristor devices, but also for the investigation of larger scale memristorbased circuits and hybrid hardware architectures, and also to explore similar behaviors observed for instance in biological synapse systems.
+        \medskip
         \par
         While models at different size scales and thus with different degrees of physical details and computational complexity have been developed for memritors, including but not limited to ab initio, Kinetic Monte Carlo, and finite element method modells, in this work we focus on the circuit-level (compact) current-voltage behavior of the memristors. From this point of view, Memristors are generally described by the systems of coupled equations:
         \begin{align}
@@ -123,9 +125,9 @@
         Effectively, this function introduces the nonlinear ion motion, as it becomes harder to change the state of the devices when the state variable approaches the boundaries. In Eq. (\ref{equa:6}), $w_p(x, x_p)$ is a windowing function that ensures $f(x)$ equals zero when $x(t) = 1$, and in (\ref{equa:7}), $w_n(x, x_n)$ keeps $x(t)$ from becoming less than $0$ when the current flow is reversed. These two functions can explicitly be written as $w_p(x, x_p) = 1 + (x_p - x)/( 1 - x_p)$ and $w_n(x, x_n) = x/(1 - x_n)$. \par
         Clearly, in (\ref{equa:3}), the functions $h_1$ and $h_2$ are dependent on the structure and type of memristor under study. Several types of resistive switching memory devices can be classified as nanoionic-based electrochemical systems, where in an ion conductor in the form of electron insulator layer is placed between two electrodes. For the case of cation-migration-based electrochemical metallization memory cells, Ag or Cu are typically used as active electrodes, Pt or W as counter electrodes, and a variety of oxides or chalcogenides thin films as solid electrolytes. When a positive voltage is applied, the active electrode material is oxidized at the electrode–electrolyte interface leading to the release of metallic ions in the adjacent electrolyte, followed by drift and diffusion of these ions across the electrolyte, and then their deposition in filamentary like metal structures at the counter electrode surface. Short-circuit occurs when the filament has grown sufficiently far to make an electronic contact with the opposite electrode, which defines the low-resistance state of the cell. When a negative voltage is applied, the cell returns back, in principle reversibly, to the high-resistance state. Anion-migration-based valence change cells, on the other hand, are formed by placing a metal oxide between for example Pt or TiN electrodes and another oxygen-affine, lower work function electrode. The lowresistance and high-resistance states are defined based on the electrochemical formation of oxygen-deficient, mixed ionic–electronic conducting filaments, and the nanoionic modification of the potential barrier between the tip of the filament and the electrode it faces. For these types of redox-based resistive memory cells, it is more appropriate to consider electron transfer theory associated with the kinetics of redox reactions to better describe their $i-v$ characteristics. Furthermore, because the formation and rupture of the metallic filaments follow random paths, the possibility of charge trapping from one operation sequence to another, charge leakage, the dynamics of an internal state variable associated with these cells cannot be defined solely based on its immediate past, in other words via integer-order derivative as in (\ref{equa:2}). Taking into account the integral past is believed to be more representative for a proper mathematical description of the complexity and dissipative nature of these cells. \par
         Motivated by these observations, we herein propose a circuit-level model for redox-based resistive memory devices, where the current equation (\ref{equa:1}) is taken from the Marcus-Hush-Chidsey (MHC) theory of heterogeneous electron transfer, while the state variable equation (\ref{equa:2}) is taken from the Yakopcic generalized  emristive model. We consider the dynamics of the state variable with respect to time to be of fractional, non-integer, order. Mathematically, this adds an extra degree of freedom to the model that can be generically correlated to the non-perfect reversibility of the device when looking at it from one cycle to another. We fit the extended model to the experimental data obtained on a Si memristor with Ag-Cu alloy as reported in. A close inspection of numerical results unambiguously reveals that switching to the fractional derivative allows one to significantly improve the agreement between the theory and experimental data.
-        \\
-        \\
         \par
+        \bigskip
+        \bigskip
         {\centering % Only center the section title
         \section{\sc \bfseries memristor model}
         }
@@ -159,8 +161,9 @@
             p = (\alpha, x_p, x_n, a_p, a_n, u_p, u_n, \beta, \lambda, \gamma _1, \gamma _2, \delta_1, \delta_2). \label{equa:13}
         \end{align}
         being arranged into one vector specify the proposed memristor model.
-        \\
         \par
+        \bigskip
+        \bigskip
         {\centering % Only center the section title
         \section{\scshape methods}
         }
@@ -186,6 +189,7 @@
         \\
         \par
         {\centering \subsection{Solution to the fractional differential equation}}
+        \bigskip
         The nonlinear fractional differential equation (\ref{equa:11}) is solved numerically using the Adams-type predictor corrector method. For nonlinear fractional differential equations of the form
         \begin{align}
             D_t^\alpha x(t) = F(t,x), ~~~ x^{(k)}(0) = x_0^{(k)}, \label{equa:18}
@@ -217,9 +221,9 @@
         \end{align}
         with $p=\min\{2,1+\alpha\}$. In practice, we first calculate and store the coefficients given by $\{b_k\}$ and $\{a_k\}$ of Eqs. (\ref{equa:20}) and (\ref{equa:22}) as arrays. After that, on each time step we calculate the predictor (\ref{equa:21}) and then use it to calculate the corrector (\ref{equa:23}). To speed up the calculations, we apply the Fast Fourier Transform algorithm to compute the convolutions on the right-hand sides of Eqs. (\ref{equa:21}) and (\ref{equa:23}).
         \par
+        \medskip
         {\centering \subsection{ \bfseries Fitting method}}
         Suppose the $i-v$ curve is yielded by $N$ measurements $\{\hat{t}_k, \hat{v}_k, \hat{i}_k\}_{k=1}^N$. To fit the model as specified by Eqs. (\ref{equa:7}) and (\ref{equa:11}) to this data, we search for the set of fitting parameters (\ref{equa:13}) using the least squares method. This is done by applying the Trust Region Reflective algorithm to minimize the cost function,
-        \\
         \begin{align}
             P^* = \arg \min_P \sum_{K=1}^N \biggl[\hat{i}_k-i(\hat{v}_k,\hat{t}_k, x(\hat{t}_k),P)]^2 \biggr], \label{equa:25}
         \end{align}
@@ -251,17 +255,18 @@
             \end{tabular}
         \end{center}
         TABLE 1 Fitting results for the MHC-Yakopcic model with ordinary and fractional differential equation for the state variable.
-        \\
+        \bigskip
         state variable $x(t)$ is calculated, we interpolate it at time steps $\hat{t}_k$ and evaluate the current $i(v,t,x,p)$ for specific points $\{\hat{v}_k,\hat{t}_k,x(\hat{t}_k)\}_{k=1}^N$. The fitted model is then evaluated and compared to the experimental data using the Normalized Root-Mean-Square Error (NRMSE),
         \begin{align}
             \text{NRMSE} = \frac{\frac{1}{\sqrt{N}} \sqrt{\sum_{k=1}N (i_k-\hat{i}_k)^2}}{\frac{1}{N} \sum_{k=1}^N \hat{i}_K} \label{equa:26}
         \end{align}
         where $i_k = i(\hat{v}_k, \hat{t}_k, x(\hat{t}_k), \textbf{p})$ is the evaluated model current.
-        \\
         \par
+        \bigskip
         {\centering % Only center the section title
         \section{ \sc{\bfseries Results and discussion}}
         }
+        \bigskip
         We fitted the memristor specified by Eqs. (\ref{equa:8}) and (\ref{equa:11}) combining the MHC-based state-controlled currentvoltage relationship and the fractional Yakopcic state variable model to the $i-v$ characteristic data of the electrochemical metallization memory device taken from. The device is a Si memristor with Ag–Cu alloying conducting channels that was fabricated following the method of Yeon et al.. For the $i-v$ measurements that were carried out on a BioLogic VSP-300 workstation, six successive sinusoidal voltage waveforms were applied across the two terminals of the device such that
         \begin{align}
             v(t) = u_0 \sin(2\pi ft), \label{equa:27}
@@ -274,8 +279,7 @@
         \end{wrapfigure}
         \\
         Fit of the $i-v$ characteristic calculated by the MHC Yakopcic model to the data obtained for the memristor device developed in Skoltech, where the dynamics of a state variable is described by a) the ordinary differential equation (\ref{equa:4}) and b) the fractional differential equation (\ref{equa:11}).
-        \\
-        \\
+        \bigskip
         $i-v$ data are presented in Fig. 1. As mentioned above we considered the equilibrium Nernst-potential of the electrode to be zero, so that the electrochemical potential in Eqs. (\ref{equa:8}) and (\ref{equa:11}) is equal to the actual applied voltage on the device. The corresponding fitting parameters are provided in Table I. As one can see, the MHC-Yakopcic model fits very well to the experimental data with NRMSE = 0.401 for the fractional order $\alpha = 0.697$. Remarkably enough, $\text{NRMSE} = 0.399$ when the state variable evolves according to the ordinary differential equation, i.e., with $\alpha = 1$. In comparison, the q-deformed memristor model recently reported in resulted in $\text{NRMSE} = 0.457$. The q-deformed model was derived by taking into account gamma-distributed local spatial inhomogeneities in the device structure. This provided a noticeable improvement in the fitting of the $i-v$ response of the same device under study here when compared to the currently used existing model (i.e., the Yakopcic model with MIM and Schottky electron transmission equations). However, as mentioned above, the kinetics of electrode reactions in redox-based electrochemical metallization memory cells should be rather described by electron transfer theory. \par
         The value of $\alpha = 0.697$ (Table I) in the fractional derivative for the state variable equation indicates that its dynamics does not evolve without prior knowledge of all past information of its state or memory of its past. This can be clearly illustrated by rewriting Eq. (\ref{equa:21}) as:
         \begin{align}
