@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  9 MAY 2023 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  11 MAY 2023 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1557,7 +1557,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<latex_graph.png, id=140, 218.61674pt x 261.3765pt>
+<latex_graph.png, id=141, 218.61674pt x 261.3765pt>
 File: latex_graph.png Graphic file (type png)
 <use latex_graph.png>
 Package pdftex.def Info: latex_graph.png  used on input line 278.
@@ -1576,6 +1576,9 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+LaTeX Warning: Reference `tab1' on page 4 undefined on input line 283.
+
+
 Overfull \hbox (11.38113pt too wide) in paragraph at lines 275--283
 []
  []
@@ -1591,6 +1594,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--291
  []
 
 [5 <./latex_graph.png>] [6] (BEADANDO.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `BEADANDO.out' has not changed.
 (rerunfilecheck)             Checksum: BD2EB16E301DC9376A11A8B02AF08AF4;1239.
 Package logreq Info: Writing requests to 'BEADANDO.run.xml'.
@@ -1598,10 +1604,10 @@ Package logreq Info: Writing requests to 'BEADANDO.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38900 strings out of 475385
- 897349 string characters out of 2776906
- 1825787 words of memory out of 3000000
- 59607 multiletter control sequences out of 15000+600000
+ 38901 strings out of 475385
+ 897355 string characters out of 2776906
+ 1826787 words of memory out of 3000000
+ 59608 multiletter control sequences out of 15000+600000
  510329 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,103p,2507b,801s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1616,7 +1622,7 @@ nts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on BEADANDO.pdf (6 pages, 193466 bytes).
+Output written on BEADANDO.pdf (6 pages, 194449 bytes).
 PDF statistics:
  221 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 500000)
