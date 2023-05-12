@@ -21,10 +21,10 @@
 \usepackage{hyperref}
 \usepackage{pgfplots} % for graphing (page 5 on the official document)
 \usepackage{etoolbox}
-\usepackage[style=numeric-comp]{biblatex}
 \usepackage[superscript,biblabel]{cite}
 \usepackage{tabularx}
 \usepackage{changepage}
+\usepackage{wrapfig}
 \usepackage{mathptmx} %font
 \usepackage{bold-extra} % for titles
 \usepackage{authblk} % több author címke
@@ -32,19 +32,30 @@
 \pagestyle{fancy}
 \usepackage{etoolbox} %remove bibliography title package
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hypersetup{citecolor=blue}
-\patchcmd{\thebibliography}{\section*{\refname}}{}{}{} % remove bibliography title
+\hypersetup{citecolor=blue} %reference color
+%%%%%%%%%%
+\hypersetup{colorlinks=true, linkcolor=blue} %links color
+%%%%%%%%%%
+\pgfplotsset{compat=1.18} % unkown error fix
+%%%%%%%%%%
+\setlength{\columnsep}{0.8cm} % column separation
+%%%%%%%%%%
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{} % remove the bibliography title
+%%%%%%%%%%
 \renewcommand{\headrulewidth}{0pt} % sets both header and footer to nothing
 \fancyhf{} % removes numbering from the bottom of the page
 \fancyhead[R]{\thepage}
-% Roman numerals for numbering
+%%%%%%%%%%
 \renewcommand{\thesection}{\sc \bfseries {\Roman{section}}.} % Use roman numerals instead
+%%%%%%%%%%
 \renewcommand\thesubsection{\Alph{subsection}.} % use A,B,C ...
+%%%%%%%%%%
 \renewcommand{\abstractname}{} % clear the title for abstract
+%%%%%%%%%%
 \newenvironment{Figure} % multicol figure
   {\par\medskip\noindent\minipage{\linewidth}}
   {\endminipage\par\medskip}
-\hypersetup{colorlinks=true, linkcolor=blue}
+%%%%%%%%%%
 \makeatletter
 \title{\vspace{-4em} \fontfamily{ptm} \bfseries \Large Fractional Marcus-Hush-Chidsey-Yakopcic current-voltage model for redox-based resistive memory devices}
 \date{(Dated: February 21, 2023)}
@@ -81,10 +92,6 @@
             \vspace{1em}
         \end{abstract}
     \end{adjustwidth}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Set space between two columns
-    \setlength{\columnsep}{0.8cm}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{multicols}{2}
     {\centering % Only center the section title
     \section{\sc{\bfseries introduction}}}
@@ -114,13 +121,15 @@
         \end{align}
         including programming voltage thresholds $u_p$ and $u_n$. The magnitude of state change for a voltage potential is defined with $a_p$ and $a_n$. The second function $f(x)$ is determined by
         \begin{align}
-            f(x) = \begin{cases} w_p (x, x_p) \cdot e^{-(x-x_p), &x \ge x_p, \\
-            1 &x < x_p,}\end{cases} \label{equa:6}
+            f(x) = \begin{cases} 
+            w_p (x, x_p) \cdot e^{-(x-x_p)} , &x \ge x_p, \\
+            1 &x < x_p,\end{cases} \label{equa:6}
         \end{align}
         for $v > 0$, while $v < 0$, it is defined as
         \begin{align}
-            f(x) = \begin{cases} w_n (x, x_n) \cdot e^{x+x_n-1), &x \le x_n, \\
-            1 &x > x_n,}\end{cases} \label{equa:7}
+            f(x) = \begin{cases} 
+            w_n (x, x_n) \cdot e^{x+x_n-1)} , &x \le x_n, \\
+            1 &x > x_n, \end{cases} \label{equa:7}
         \end{align}
         Effectively, this function introduces the nonlinear ion motion, as it becomes harder to change the state of the devices when the state variable approaches the boundaries. In Eq. (\ref{equa:6}), $w_p(x, x_p)$ is a windowing function that ensures $f(x)$ equals zero when $x(t) = 1$, and in (\ref{equa:7}), $w_n(x, x_n)$ keeps $x(t)$ from becoming less than $0$ when the current flow is reversed. These two functions can explicitly be written as $w_p(x, x_p) = 1 + (x_p - x)/( 1 - x_p)$ and $w_n(x, x_n) = x/(1 - x_n)$. \par
         Clearly, in (\ref{equa:3}), the functions $h_1$ and $h_2$ are dependent on the structure and type of memristor under study. Several types of resistive switching memory devices can be classified as nanoionic-based electrochemical systems, where in an ion conductor in the form of electron insulator layer is placed between two electrodes. For the case of cation-migration-based electrochemical metallization memory cells, Ag or Cu are typically used as active electrodes, Pt or W as counter electrodes, and a variety of oxides or chalcogenides thin films as solid electrolytes. When a positive voltage is applied, the active electrode material is oxidized at the electrode–electrolyte interface leading to the release of metallic ions in the adjacent electrolyte, followed by drift and diffusion of these ions across the electrolyte, and then their deposition in filamentary like metal structures at the counter electrode surface. Short-circuit occurs when the filament has grown sufficiently far to make an electronic contact with the opposite electrode, which defines the low-resistance state of the cell. When a negative voltage is applied, the cell returns back, in principle reversibly, to the high-resistance state. Anion-migration-based valence change cells, on the other hand, are formed by placing a metal oxide between for example Pt or TiN electrodes and another oxygen-affine, lower work function electrode. The lowresistance and high-resistance states are defined based on the electrochemical formation of oxygen-deficient, mixed ionic–electronic conducting filaments, and the nanoionic modification of the potential barrier between the tip of the filament and the electrode it faces. For these types of redox-based resistive memory cells, it is more appropriate to consider electron transfer theory associated with the kinetics of redox reactions to better describe their $i-v$ characteristics. Furthermore, because the formation and rupture of the metallic filaments follow random paths, the possibility of charge trapping from one operation sequence to another, charge leakage, the dynamics of an internal state variable associated with these cells cannot be defined solely based on its immediate past, in other words via integer-order derivative as in (\ref{equa:2}). Taking into account the integral past is believed to be more representative for a proper mathematical description of the complexity and dissipative nature of these cells. \par
@@ -182,11 +191,10 @@
         \end{align}
         Thus, one can rewrite the MHC integrals (\ref{equa:10}) in the form
         \begin{align}
-            h_{\pm}(v)=2 \beta \sqrt{\lambda} \sum_{k=1}^n \frac{c_k}{1+\exp{\{2x_k \sqrt{\lambda} + \lamda \pm v\}}}. \label{equa:17}
+            h_\pm (v) = 2 \beta \sqrt{\lambda} \sum_{k=1}^n \frac{c_k}{1 + \exp{ \{2x_k \sqrt{\lambda} + \lambda \pm v}\}} \label{equa:17}
         \end{align}
         In our numerical simulations, the order of quadrature $n = 25$, which is deemed more than sufficient for our purpose.
-        \\
-        \\
+        \medskip
         \par
         {\centering \subsection{Solution to the fractional differential equation}}
         \bigskip
@@ -273,19 +281,22 @@
         \end{align}
         with $u_0 = 6 V$ and $f = 1 Hz$ in the unit time interval $t \in [0,1]$. The measured $i-v$ signals were separated into six sequences, and then averaged into a single $i-v$ characteristic cycle on which fitting is performed. \par
         The numerical simulations of the models with the ordinary and fractional derivatives fitted to the experimental
-        \\
-        \begin{wrapfigure}{}{\linewidth}
+        \columnbreak
+        \begin{wrapfigure}[0]{r}[0pt]{\linewidth}
         \includegraphics[width=0.5\textwidth]{latex_graph.png}
         \end{wrapfigure}
-        \\
+        \vspace{30em}
+        \par
+        \medskip
         Fit of the $i-v$ characteristic calculated by the MHC Yakopcic model to the data obtained for the memristor device developed in Skoltech, where the dynamics of a state variable is described by a) the ordinary differential equation (\ref{equa:4}) and b) the fractional differential equation (\ref{equa:11}).
         \bigskip
-        $i-v$ data are presented in Fig. \ref{tab1}. As mentioned above we considered the equilibrium Nernst-potential of the electrode to be zero, so that the electrochemical potential in Eqs. (\ref{equa:8}) and (\ref{equa:11}) is equal to the actual applied voltage on the device. The corresponding fitting parameters are provided in Table I. As one can see, the MHC-Yakopcic model fits very well to the experimental data with NRMSE = 0.401 for the fractional order $\alpha = 0.697$. Remarkably enough, $\text{NRMSE} = 0.399$ when the state variable evolves according to the ordinary differential equation, i.e., with $\alpha = 1$. In comparison, the q-deformed memristor model recently reported in resulted in $\text{NRMSE} = 0.457$. The q-deformed model was derived by taking into account gamma-distributed local spatial inhomogeneities in the device structure. This provided a noticeable improvement in the fitting of the $i-v$ response of the same device under study here when compared to the currently used existing model (i.e., the Yakopcic model with MIM and Schottky electron transmission equations). However, as mentioned above, the kinetics of electrode reactions in redox-based electrochemical metallization memory cells should be rather described by electron transfer theory. \par
+        $i-v$ data are presented in Fig. 1. As mentioned above we considered the equilibrium Nernst-potential of the electrode to be zero, so that the electrochemical potential in Eqs. (\ref{equa:8}) and (\ref{equa:11}) is equal to the actual applied voltage on the device. The corresponding fitting parameters are provided in Table I. As one can see, the MHC-Yakopcic model fits very well to the experimental data with NRMSE = 0.401 for the fractional order $\alpha = 0.697$. Remarkably enough, $\text{NRMSE} = 0.399$ when the state variable evolves according to the ordinary differential equation, i.e., with $\alpha = 1$. In comparison, the q-deformed memristor model recently reported in resulted in $\text{NRMSE} = 0.457$. The q-deformed model was derived by taking into account gamma-distributed local spatial inhomogeneities in the device structure. This provided a noticeable improvement in the fitting of the $i-v$ response of the same device under study here when compared to the currently used existing model (i.e., the Yakopcic model with MIM and Schottky electron transmission equations). However, as mentioned above, the kinetics of electrode reactions in redox-based electrochemical metallization memory cells should be rather described by electron transfer theory. \par
         The value of $\alpha = 0.697$ (Table I) in the fractional derivative for the state variable equation indicates that its dynamics does not evolve without prior knowledge of all past information of its state or memory of its past. This can be clearly illustrated by rewriting Eq. (\ref{equa:21}) as:
         \begin{align}
             x_h^P (t_{n+1}) = \frac{h^\alpha}{\Gamma (\alpha + 1)} \biggl\{ F_n + \sum_{j=0}^{n-1} F_j \cdot b_{n-j} \biggr\} + ..., \label{equa:28}
         \end{align}
-        which can be decoupled as the the sum of the immediate past of the state variable, and a memory trace, represented by the second summation term, that contains information about all previous states of the device. \par
+        which can be decoupled as the the sum of the immediate past of the state variable, and a memory trace, represented by the second summation term, that contains information about all previous states of the device.\par
+        
         The magnitude of the memory trace term increases when $\alpha$ decreases further away from one, and when we are close to the actual instant t at which the variable is evaluated. At the limiting case of $\alpha = 1$, corresponding to first-order integer derivative, the memory trace part vanishes, and does not have any effect on the dynamics of the state variable. Here, because $\alpha = 1$ we may speak of an intrinsic memory embedded in our redox-based resistive memory device. Fractional dynamics are in fact very often observed in electrochemical devices and complex systems. Indeed, a close inspection of Table I reveals that the fractional MHC-Yakopcic memristor model is practically insensitive to the input voltage $a_p, a_n \approx 0.$.
         \\
         \par
