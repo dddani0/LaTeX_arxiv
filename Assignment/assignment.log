@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  12 MAY 2023 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.31)  12 MAY 2023 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1002,7 +1002,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 8
 (D:\Users\Danie\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-No file assignment.aux.
+(assignment.aux)
 \openout1 = `assignment.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -1023,6 +1023,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1084,6 +1085,7 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 80.
+ (assignment.out) (assignment.out)
 \@outlinefile=\write4
 \openout4 = `assignment.out'.
 
@@ -1127,248 +1129,41 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
 
-
-LaTeX Warning: Citation `cit1' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit2' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit3' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit4' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit5' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit6' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit7' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit8' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit9' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit10' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit3' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit1' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit6' on page 1 undefined on input line 99.
-
-
-LaTeX Warning: Citation `cit8' on page 1 undefined on input line 107.
-
-
-LaTeX Warning: Hyper reference `equa:1' on page 1 undefined on input line 107.
-
-
-LaTeX Warning: Reference `equa:1' on page 1 undefined on input line 107.
-
-
-LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 107.
-
-
-LaTeX Warning: Reference `equa:1' on page 1 undefined on input line 107.
-
-
-LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 107.
-
-
-LaTeX Warning: Reference `equa:1' on page 1 undefined on input line 107.
-
-
-LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 107.
-
-
-LaTeX Warning: Reference `equa:2' on page 1 undefined on input line 113.
-
 [1
 
-{C:/Users/Danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-LaTeX Warning: Reference `equa:6' on page 2 undefined on input line 134.
-
-
-LaTeX Warning: Reference `equa:7' on page 2 undefined on input line 134.
-
-
-LaTeX Warning: Reference `equa:3' on page 2 undefined on input line 135.
-
-
-LaTeX Warning: Reference `equa:2' on page 2 undefined on input line 135.
-
-
-LaTeX Warning: Reference `equa:1' on page 2 undefined on input line 136.
-
-
-LaTeX Warning: Reference `equa:2' on page 2 undefined on input line 136.
-
-
-LaTeX Warning: Reference `equa:1' on page 2 undefined on input line 143.
-
-
-LaTeX Warning: Reference `equa:10' on page 2 undefined on input line 156.
-
-
-LaTeX Warning: Reference `equa:8' on page 2 undefined on input line 158.
-
-
-LaTeX Warning: Reference `equa:10' on page 2 undefined on input line 158.
-
-[2]
-
-LaTeX Warning: Reference `equa:4' on page 3 undefined on input line 159.
-
-
-LaTeX Warning: Reference `equa:10' on page 3 undefined on input line 180.
-
-
-LaTeX Warning: Reference `equa:14' on page 3 undefined on input line 188.
-
-
-LaTeX Warning: Reference `equa:10' on page 3 undefined on input line 192.
-
-
-LaTeX Warning: Reference `equa:11' on page 3 undefined on input line 201.
-
-
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 209.
-
-
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 210.
-
-
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 218.
-
-
-LaTeX Warning: Reference `equa:19' on page 3 undefined on input line 218.
-
-
-LaTeX Warning: Reference `equa:20' on page 3 undefined on input line 230.
-
-
-LaTeX Warning: Reference `equa:22' on page 3 undefined on input line 230.
-
-
-LaTeX Warning: Reference `equa:21' on page 3 undefined on input line 230.
-
-
-LaTeX Warning: Reference `equa:23' on page 3 undefined on input line 230.
-
-
-LaTeX Warning: Reference `equa:21' on page 3 undefined on input line 230.
-
-
-LaTeX Warning: Reference `equa:23' on page 3 undefined on input line 230.
-
+{C:/Users/Danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 [3]
-
-LaTeX Warning: Reference `equa:7' on page 4 undefined on input line 234.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 234.
-
-
-LaTeX Warning: Reference `equa:13' on page 4 undefined on input line 234.
-
-
-LaTeX Warning: Reference `equa:8' on page 4 undefined on input line 238.
-
-
-LaTeX Warning: Reference `equa:8' on page 4 undefined on input line 238.
-
-
-LaTeX Warning: Reference `equa:4' on page 4 undefined on input line 238.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 238.
-
-
-LaTeX Warning: Reference `equa:13' on page 4 undefined on input line 238.
-
-
-LaTeX Warning: Reference `equa:4' on page 4 undefined on input line 238.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 238.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 237--240
 
  []
 
-
-LaTeX Warning: Reference `equa:8' on page 4 undefined on input line 278.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 278.
-
-<latex_graph.png, id=55, 218.61674pt x 261.3765pt>
-File: latex_graph.png Graphic file (type png)
-<use latex_graph.png>
-Package pdftex.def Info: latex_graph.png  used on input line 286.
+<NRMSE.png, id=141, 218.61674pt x 261.3765pt>
+File: NRMSE.png Graphic file (type png)
+<use NRMSE.png>
+Package pdftex.def Info: NRMSE.png  used on input line 286.
 (pdftex.def)             Requested size: 255.93245pt x 305.99669pt.
 
 Overfull \hbox (11.38113pt too wide) in paragraph at lines 286--287
 [][] 
  []
 
-
-LaTeX Warning: Reference `equa:4' on page 4 undefined on input line 291.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 291.
-
-
-LaTeX Warning: Reference `equa:8' on page 4 undefined on input line 293.
-
-
-LaTeX Warning: Reference `equa:11' on page 4 undefined on input line 293.
-
 [4]
-
-LaTeX Warning: Reference `equa:21' on page 5 undefined on input line 294.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
-[5 <./latex_graph.png>] [6] (assignment.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `assignment.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `assignment.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  BD2EB16E301DC9376A11A8B02AF08AF4;1239.
+[5 <./NRMSE.png>] [6] (assignment.aux)
+Package rerunfilecheck Info: File `assignment.out' has not changed.
+(rerunfilecheck)             Checksum: BD2EB16E301DC9376A11A8B02AF08AF4;1239.
  ) 
 Here is how much of TeX's memory you used:
- 31983 strings out of 475385
- 756818 string characters out of 2776906
+ 31997 strings out of 475385
+ 757058 string characters out of 2776906
  1323526 words of memory out of 3000000
- 52744 multiletter control sequences out of 15000+600000
- 511436 words of font info for 104 fonts, out of 8000000 for 9000
+ 52753 multiletter control sequences out of 15000+600000
+ 510329 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,103p,2518b,662s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,16n,103p,2509b,662s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<D:
 /Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1380,9 +1175,9 @@ nts/type1/urw/symbol/usyr.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><D:/Users/Danie/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on assignment.pdf (6 pages, 181279 bytes).
+Output written on assignment.pdf (6 pages, 193447 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
+ 221 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

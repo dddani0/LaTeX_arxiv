@@ -12,29 +12,28 @@
 \usepackage[margin={1.8cm,1.8cm},top=2cm, bottom=2cm]{geometry}
 \usepackage{amsmath} %for math equations and formality (like. \text{})
 \usepackage{multicol} % multiple column package
-\usepackage{afterpage} 
+\usepackage{afterpage}
 \usepackage{graphicx}
 \usepackage{mwe}
 \usepackage{indentfirst}
 \usepackage{lmodern}
 \usepackage{nonfloat}
 \usepackage{hyperref}
-\usepackage{pgfplots} % for graphing (page 5 on the official document)
-\usepackage{etoolbox}
+\usepackage{pgfplots}
 \usepackage[superscript,biblabel]{cite}
 \usepackage{tabularx}
 \usepackage{changepage}
 \usepackage{wrapfig}
-\usepackage{mathptmx} %font
+\usepackage{mathptmx} % font
 \usepackage{bold-extra} % for titles
 \usepackage{authblk} % több author címke
 \usepackage{fancyhdr} % for nicer header
 \pagestyle{fancy}
 \usepackage{etoolbox} %remove bibliography title package
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hypersetup{citecolor=blue} %reference color
+\hypersetup{citecolor=blue} % reference color
 %%%%%%%%%%
-\hypersetup{colorlinks=true, linkcolor=blue} %links color
+\hypersetup{colorlinks=true, linkcolor=blue} % links color
 %%%%%%%%%%
 \pgfplotsset{compat=1.18} % unkown error fix
 %%%%%%%%%%
@@ -53,8 +52,8 @@
 \renewcommand{\abstractname}{} % clear the title for abstract
 %%%%%%%%%%
 \newenvironment{Figure} % multicol figure
-  {\par\medskip\noindent\minipage{\linewidth}}
-  {\endminipage\par\medskip}
+{\par\medskip\noindent\minipage{\linewidth}}
+{\endminipage\par\medskip}
 %%%%%%%%%%
 \makeatletter
 \title{\vspace{-4em} \fontfamily{ptm} \bfseries \Large Fractional Marcus-Hush-Chidsey-Yakopcic current-voltage model for redox-based resistive memory devices}
@@ -79,11 +78,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
     \vspace{-1em}
-% Showcase title on the page
     \maketitle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Skip first-page numbering
-    \thispagestyle{empty}
+    \thispagestyle{empty} % Skip first-page numbering
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{adjustwidth}{18pt}{18pt}
         \begin{abstract}
@@ -93,9 +90,9 @@
         \end{abstract}
     \end{adjustwidth}
     \begin{multicols}{2}
-    {\centering % Only center the section title
+    {\centering
     \section{\sc{\bfseries introduction}}}
-    \medskip
+        \medskip
         Substantial research efforts have been dedicated to the development of electrically-controlled resistive switching in metal-insulator-metal (MIM) devices or memristors, going from new materials discovery\cite{cit1, cit2, cit3, cit4, cit5, cit6, cit7} to modelling and simulation\cite{cit8, cit9, cit10} , and design and applications\cite{cit3}. With both memory and logic capabilities combined at the hardware level, in addition to long retention times and high switching rates at relatively low energy consumption\cite{cit1}, these devices are favorably seen as the next-generation building blocks for nonvolatile memories and neuromorphic computing applications. In a typical memristor, the resistive switching is based on the electrically-stimulated change of cell resistance usually driven by internal ion redistribution, which actually depends not only on the applied excitation but also on the past history of the excitation\cite{cit6}. Physical mechanisms associated with these reversible transitions have been attributed to different effects including valencechange, electrochemical metallization, and phase change effects. They can be either abrupt (binary) or gradual (analogue), and evolve at different timescales, leading to rich and complex device behaviors in this seemingly simple device structure of just three layers. Furthermore, with the wide range of diversity in memristors materials and their morphologies, operating mechanisms, and manufacturing technologies there is an urgent need for the development of a general model capable of capturing accurately and effectively their complex nonlinear dynamics. This is crucial not only for the characterization and comparison between different memristor devices, but also for the investigation of larger scale memristorbased circuits and hybrid hardware architectures, and also to explore similar behaviors observed for instance in biological synapse systems.
         \medskip
         \par
@@ -116,28 +113,32 @@
         \end{align}
         An exponential dependency of the state change to the positive and negative regions of the input voltage $v$ is modelled in terms of
         \begin{align}
-            g(v) = \begin{cases} a_p \cdot (1-e^{U_p -v}) \cdot e^v, &u-u_p > 0, \\ a_n \cdot (e^{u_n +v}-1)\cdot e^{-v}, &u+u_n < 0, \\
-            0, &\text{otherwise}\end{cases} \label{equa:5}
+            g(v) = \begin{cases}
+                       a_p \cdot (1-e^{U_p -v}) \cdot e^v, &u-u_p > 0, \\ a_n \cdot (e^{u_n +v}-1)\cdot e^{-v}, &u+u_n < 0, \\
+                       0, &\text{otherwise}
+            \end{cases} \label{equa:5}
         \end{align}
         including programming voltage thresholds $u_p$ and $u_n$. The magnitude of state change for a voltage potential is defined with $a_p$ and $a_n$. The second function $f(x)$ is determined by
         \begin{align}
-            f(x) = \begin{cases} 
-            w_p (x, x_p) \cdot e^{-(x-x_p)} , &x \ge x_p, \\
-            1 &x < x_p,\end{cases} \label{equa:6}
+            f(x) = \begin{cases}
+                       w_p (x, x_p) \cdot e^{-(x-x_p)} , &x \ge x_p, \\
+                       1 &x < x_p,
+            \end{cases} \label{equa:6}
         \end{align}
         for $v > 0$, while $v < 0$, it is defined as
         \begin{align}
-            f(x) = \begin{cases} 
-            w_n (x, x_n) \cdot e^{x+x_n-1)} , &x \le x_n, \\
-            1 &x > x_n, \end{cases} \label{equa:7}
+            f(x) = \begin{cases}
+                       w_n (x, x_n) \cdot e^{x+x_n-1)} , &x \le x_n, \\
+                       1 &x > x_n,
+            \end{cases} \label{equa:7}
         \end{align}
         Effectively, this function introduces the nonlinear ion motion, as it becomes harder to change the state of the devices when the state variable approaches the boundaries. In Eq. (\ref{equa:6}), $w_p(x, x_p)$ is a windowing function that ensures $f(x)$ equals zero when $x(t) = 1$, and in (\ref{equa:7}), $w_n(x, x_n)$ keeps $x(t)$ from becoming less than $0$ when the current flow is reversed. These two functions can explicitly be written as $w_p(x, x_p) = 1 + (x_p - x)/( 1 - x_p)$ and $w_n(x, x_n) = x/(1 - x_n)$. \par
         Clearly, in (\ref{equa:3}), the functions $h_1$ and $h_2$ are dependent on the structure and type of memristor under study. Several types of resistive switching memory devices can be classified as nanoionic-based electrochemical systems, where in an ion conductor in the form of electron insulator layer is placed between two electrodes. For the case of cation-migration-based electrochemical metallization memory cells, Ag or Cu are typically used as active electrodes, Pt or W as counter electrodes, and a variety of oxides or chalcogenides thin films as solid electrolytes. When a positive voltage is applied, the active electrode material is oxidized at the electrode–electrolyte interface leading to the release of metallic ions in the adjacent electrolyte, followed by drift and diffusion of these ions across the electrolyte, and then their deposition in filamentary like metal structures at the counter electrode surface. Short-circuit occurs when the filament has grown sufficiently far to make an electronic contact with the opposite electrode, which defines the low-resistance state of the cell. When a negative voltage is applied, the cell returns back, in principle reversibly, to the high-resistance state. Anion-migration-based valence change cells, on the other hand, are formed by placing a metal oxide between for example Pt or TiN electrodes and another oxygen-affine, lower work function electrode. The lowresistance and high-resistance states are defined based on the electrochemical formation of oxygen-deficient, mixed ionic–electronic conducting filaments, and the nanoionic modification of the potential barrier between the tip of the filament and the electrode it faces. For these types of redox-based resistive memory cells, it is more appropriate to consider electron transfer theory associated with the kinetics of redox reactions to better describe their $i-v$ characteristics. Furthermore, because the formation and rupture of the metallic filaments follow random paths, the possibility of charge trapping from one operation sequence to another, charge leakage, the dynamics of an internal state variable associated with these cells cannot be defined solely based on its immediate past, in other words via integer-order derivative as in (\ref{equa:2}). Taking into account the integral past is believed to be more representative for a proper mathematical description of the complexity and dissipative nature of these cells. \par
-        Motivated by these observations, we herein propose a circuit-level model for redox-based resistive memory devices, where the current equation (\ref{equa:1}) is taken from the Marcus-Hush-Chidsey (MHC) theory of heterogeneous electron transfer, while the state variable equation (\ref{equa:2}) is taken from the Yakopcic generalized  emristive model. We consider the dynamics of the state variable with respect to time to be of fractional, non-integer, order. Mathematically, this adds an extra degree of freedom to the model that can be generically correlated to the non-perfect reversibility of the device when looking at it from one cycle to another. We fit the extended model to the experimental data obtained on a Si memristor with Ag-Cu alloy as reported in. A close inspection of numerical results unambiguously reveals that switching to the fractional derivative allows one to significantly improve the agreement between the theory and experimental data.
+        Motivated by these observations, we herein propose a circuit-level model for redox-based resistive memory devices, where the current equation (\ref{equa:1}) is taken from the Marcus-Hush-Chidsey (MHC) theory of heterogeneous electron transfer, while the state variable equation (\ref{equa:2}) is taken from the Yakopcic generalized emristive model. We consider the dynamics of the state variable with respect to time to be of fractional, non-integer, order. Mathematically, this adds an extra degree of freedom to the model that can be generically correlated to the non-perfect reversibility of the device when looking at it from one cycle to another. We fit the extended model to the experimental data obtained on a Si memristor with Ag-Cu alloy as reported in. A close inspection of numerical results unambiguously reveals that switching to the fractional derivative allows one to significantly improve the agreement between the theory and experimental data.
         \par
         \bigskip
         \bigskip
-        {\centering % Only center the section title
+        {\centering
         \section{\sc \bfseries memristor model}
         }
         The generalized $i-v$ relationship, as specified by Eq. (\ref{equa:1}), for the proposed memristor model reads
@@ -173,7 +174,7 @@
         \par
         \bigskip
         \bigskip
-        {\centering % Only center the section title
+        {\centering
         \section{\scshape methods}
         }
         {\centering \subsection{Evaluation of the MHC integral}}
@@ -236,28 +237,28 @@
             P^* = \arg \min_P \sum_{K=1}^N \biggl[\hat{i}_k-i(\hat{v}_k,\hat{t}_k, x(\hat{t}_k),P)]^2 \biggr], \label{equa:25}
         \end{align}
         where $i(v, t, x, p)$ is the right-hand side of (\ref{equa:8}). The parameters are non-negative, and the fractional derivative order is bounded, $0 < \alpha \le 1.$. Since the current (\ref{equa:8}) depends on the state variable $x(t)$, for each p we self-consistently solve either the ordinary (\ref{equa:4}) or fractional (\ref{equa:11}) differential equation with respect to the state variable in $0 \le t \le T$. As long as the evolution of $x(t)$ is described in terms of the ordinary differential equation, we keep the parameter $\alpha = 1$ excluded from the fitting parameters vector (\ref{equa:13}). Eq. (\ref{equa:4}) is solved numerically using the Runge–Kutta–Fehlberg method, while Eq. (\ref{equa:11}) is addressed by a means of the Adams-type predictor corrector method on condition that $x(0) = 0$. Once the
-       \\
+        \\
         \begin{center}
             \begin{tabular}{c c c}
                 \hline
                 \hline
-                Parameters & Integer order & Fractional order \\
+                Parameters   & Integer order & Fractional order \\
                 \hline
-                $\alpha$ & 1.000 & 0.697 \\
-                $x_p$ & 0.000 & 0.619 \\
-                $x_n$ & 0.000 & 19.17 \\
-                $a_p$ & 0.711 & 0.071 \\
-                $a_n$ & 0.108 & 0.006 \\
-                $u_p$ & 4.796 & 4.718 \\
-                $u_n$ & 0.000 & 0.000 \\
-                $\beta$ & 0.524 & 1.372 \\
-                $\lambda$ & 16.94 & 15.95 \\
-                $\gamma _1$ & 4.865 & 1.746 \\
-                $ \gamma _2$ & 6.328 & 2.520 \\
-                $ \delta _1$ & 3.947 & 4.121 \\
-                $ \delta _2$ & 2.308 & 2.165 \\
+                $\alpha$     & 1.000         & 0.697            \\
+                $x_p$        & 0.000         & 0.619            \\
+                $x_n$        & 0.000         & 19.17            \\
+                $a_p$        & 0.711         & 0.071            \\
+                $a_n$        & 0.108         & 0.006            \\
+                $u_p$        & 4.796         & 4.718            \\
+                $u_n$        & 0.000         & 0.000            \\
+                $\beta$      & 0.524         & 1.372            \\
+                $\lambda$    & 16.94         & 15.95            \\
+                $\gamma _1$  & 4.865         & 1.746            \\
+                $ \gamma _2$ & 6.328         & 2.520            \\
+                $ \delta _1$ & 3.947         & 4.121            \\
+                $ \delta _2$ & 2.308         & 2.165            \\
                 \hline
-                \text{NRMSE} & 0.399 & 0.401 \\
+                \text{NRMSE} & 0.399         & 0.401            \\
                 \hline
                 \hline
             \end{tabular}
@@ -271,7 +272,7 @@
         where $i_k = i(\hat{v}_k, \hat{t}_k, x(\hat{t}_k), \textbf{p})$ is the evaluated model current.
         \par
         \bigskip
-        {\centering % Only center the section title
+        {\centering
         \section{ \sc{\bfseries Results and discussion}}
         }
         \bigskip
@@ -283,7 +284,7 @@
         The numerical simulations of the models with the ordinary and fractional derivatives fitted to the experimental
         \columnbreak
         \begin{wrapfigure}[0]{r}[0pt]{\linewidth}
-        \includegraphics[width=0.5\textwidth]{latex_graph.png}
+            \includegraphics[width=0.5\textwidth]{NRMSE.png}
         \end{wrapfigure}
         \vspace{30em}
         \par
@@ -296,17 +297,16 @@
             x_h^P (t_{n+1}) = \frac{h^\alpha}{\Gamma (\alpha + 1)} \biggl\{ F_n + \sum_{j=0}^{n-1} F_j \cdot b_{n-j} \biggr\} + ..., \label{equa:28}
         \end{align}
         which can be decoupled as the the sum of the immediate past of the state variable, and a memory trace, represented by the second summation term, that contains information about all previous states of the device.\par
-        
+
         The magnitude of the memory trace term increases when $\alpha$ decreases further away from one, and when we are close to the actual instant t at which the variable is evaluated. At the limiting case of $\alpha = 1$, corresponding to first-order integer derivative, the memory trace part vanishes, and does not have any effect on the dynamics of the state variable. Here, because $\alpha = 1$ we may speak of an intrinsic memory embedded in our redox-based resistive memory device. Fractional dynamics are in fact very often observed in electrochemical devices and complex systems. Indeed, a close inspection of Table I reveals that the fractional MHC-Yakopcic memristor model is practically insensitive to the input voltage $a_p, a_n \approx 0.$.
         \\
         \par
-        {\centering % Only center the section title
+        {\centering
         \section{ \sc{\bfseries Conclusion}}
         }
         In this work we proposed a compact and accurate model for describing the electrical behavior of redoxbased resistive memory devices in which (i) the statecontrolled current-voltage equation is based on the MHC theory for electron transfer, and (ii) the dynamics of the state variable is assumed to follow fractional time derivatives of order $\alpha (0 < \alpha < 1).$
         For the numerical solution to the MHC integral we used the Gauss-Hermite quadrature method and for the fractional differential equation of the state variable we used an Adams-type predictor corrector technique. Goodness of fit to the experimental data is evaluated in terms of NRMSE, and indicates superior capabilities of the proposed model when compared to recently reported ones. The obtained results, in connection to the electrochemical nature of the device under test, point out to necessity to take into consideration fractional dynamics when describing the $i-v$ characteristics of redox-based resistive memory devices. The fractional parameter can be viewed as an additional quantity representing the non-ideality, dissipative behavior of these devices.
     \end{multicols}
-    %I apologize for this pathetic attempt :(
     \begin{center}
         \rule{0.2\textwidth}{1pt}
         \\
