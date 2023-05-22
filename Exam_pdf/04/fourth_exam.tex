@@ -2,19 +2,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{marginnote}
 \usepackage{amsmath} %\normal miatt
-\usepackage{pagenote} % endnotes miatt
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand*{\notedivision}{\section*{\notesname}}
-\renewcommand*{\pagenotesubhead}[1]{}
-\renewcommand{\notesname}{End Notes}
-\renewcommand\notenuminnotes[1]{{$^#1$}}
-\makepagenote % endnote megjelenítése
+\usepackage{endnotes} % endnotes miatt
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \par
 You first task is to type your own name here, with all the special symbols used in your language: Mikus Dániel. \par
 At the end of this document you can find a References section; I refer to its elements: \cite{Lotr, lmp}.  \par
-While editing a document, you may find that you need to typeset something as a footnote \footnote{...like this one...} or as a "margin-note" \marginnote{as this one} or even as a note at the end of as this your document \pagenote{Now, this is a note at the end of the document.} For the latter one you will need to use a package. \par
+While editing a document, you may find that you need to typeset something as a footnote \footnote{...like this one...} or as a "margin-note" \marginnote{as this one} or even as a note at the end of as this your document \endnote{Now, this is a note at the end of the document.} For the latter one you will need to use a package. \par
 And, as usual, you can find a beautiful equation (\ref{eq:1}) on page 1 (use correct cross-referencing):
 \begin{equation} \label{eq:1}
     \left( \exists 0 \leq p_k \leq 1, | \psi _k \rangle \text{~is separable,~} \sum_k p_k = 1 \right)~ \rho = \sum_k p_k | \psi \rangle \langle \psi _k |
@@ -31,5 +25,5 @@ The Hardvard Lampoon:
 \textit{Bored of the Rings: A parody.} Touchstone 
 (2012) ISBN-10: 1451672667
 \end{thebibliography}
-\printnotes*
+\theendnotes
 \end{document}
